@@ -1,5 +1,9 @@
 # Creating A Infrared Remote
 
-Apps->Tools->IR Remote
+Remote UI [Instructions](Guides/Infrared%20Remote%20UI.md)
+
+
+
 
 ![](https://i.imgur.com/Ika9jyt.png)
+>Apps->Tools->IR Remote
