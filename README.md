@@ -35,6 +35,19 @@ My collection of IR, Sub-Ghz, remotes, and other misc files related to the [Flip
 [CLion IDE - How to setup workspace for flipper firmware development](https://krasovs.ky/2022/11/01/flipper-zero-clion.html)
  -- Writing and Debugging in CLion
 
+[Flipper Plugin Howto](https://github.com/csBlueChip/FlipperZero_plugin_howto)
+
+
+## Flipper Tools & Apps
+[Flipper Maker](https://flippermaker.github.io/) -- Generate Flipper Zero Files on the fly
+
+[flipperzero-bruteforce](https://github.com/tobiabocchi/flipperzero-bruteforce) -- Generate .sub files to brute force Sub-GHz OOK.
+
+[T119 Brute Forcer](https://github.com/xb8/t119bruteforcer) -- Triggers Retekess T119 restaraunt pagers
+
+[SerialHex2FlipperZeroInfrared](https://github.com/maehw/SerialHex2FlipperZeroInfrared) - Convert IR serial messages into FlipperZero compatible IR files
+
+
 ## Plugins that work with external hardware
 
 [i2c tools](https://github.com/DarkFlippers/unleashed-firmware/blob/dev/applications/external/flipper_i2ctools/README.md)
@@ -51,7 +64,7 @@ My collection of IR, Sub-Ghz, remotes, and other misc files related to the [Flip
 
 [WiFi Scanner - Web Flasher for module firmware](https://sequoiasan.github.io/FlipperZero-WiFi-Scanner_Module/)
 
-[Using GPIO to Crack A Sentry Safe](https://github.com/DarkFlippers/unleashed-firmware/blob/dev/documentation/SentrySafe.md)
+[Using GPIO to Crack A Sentry Safe](https://github.com/DarkFlippers/unleashed-firmware/blob/dev/documentation/SentrySafe.md) -- [Sentry Safe Crack Plugin](https://github.com/H4ckd4ddy/flipperzero-sentry-safe-plugin)
 
 
 
@@ -61,17 +74,31 @@ My collection of IR, Sub-Ghz, remotes, and other misc files related to the [Flip
 []()
 
 
-## Sub-Ghz, Remotes, IR, etc..
+## Sub-Ghz, Remotes, IR, Files, Databases & Dumps etc..
 
-[UberGuidoZ Playground - Large collection of files - Github](https://github.com/UberGuidoZ/Flipper)
+[UberGuidoZ Playground - Large collection of files - Github](https://github.com/UberGuidoZ/Flipper) -- Large collection of files, documentation, and dumps of all kinds.
 
 [Awesome Flipper Zero](https://github.com/djsime1/awesome-flipperzero)
 
 [magikh0es Flipper Zero Stuff](https://github.com/magikh0e/FlipperZero_Stuff/)
 
-[]()
-[]()
-[]()
-[]()
+[FlipperZero-TouchTunes](https://github.com/jimilinuxguy/flipperzero-touchtunes) -- TouchTunes remote dump
+
+[Universal Intercom Keys](https://github.com/GlUTEN-BASH/Flipper-Starnew)
+
+[FlipperZero-Goodies](https://github.com/wetox-team/flipperzero-goodies) -- Intercom keys, scripts.
+
+[Flipper-IRDB](https://github.com/logickworkshop/Flipper-IRDB) -- IR dumps for various appliances
+
+
+
+## BadUSB Stuff
+
+[UNC0V3R3D BadUSB collection](https://github.com/UNC0V3R3D/Flipper_Zero-BadUsb)
+
+[FalsePhilosophers Flipper BadUSB](https://github.com/FalsePhilosopher/badusb) -- Flipper zero community ducky payload repo.
+
+[Generic BadUSB Payloads](https://github.com/nocomp/Flipper_Zero_Badusb_hack5_payloads) -- Hak5 Ducky script payloads
+
 []()
 
