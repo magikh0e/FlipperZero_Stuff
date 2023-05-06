@@ -59,3 +59,7 @@ command: 07 00 00 00
 ```
 
 Once the something.txt file has been created and mapped to your captured Infrared dump, you can test your remote by going to *Apps->Tools->IR Remote* on your F0 device
+
+Here is an example of what your menu should look like, depending on which buttons used.
+>NOTE: The top half of the menu is for single press buttons, the bottom is for press and hold buttons.
+![A image example of the flipper menu created](https://i.imgur.com/WlXAejr.png)
