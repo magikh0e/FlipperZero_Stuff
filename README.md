@@ -1,6 +1,6 @@
 # FlipperZero_Stuff repo
 
-My collection of IR, Sub-Ghz, remotes, and other misc files related to the [Flipper Zero](https://www.flipperzero.one/)
+My collection of IR, Sub-Ghz, remotes, links and other misc files related to the [Flipper Zero](https://www.flipperzero.one/) device
 
 ## Firmware
 [Flipper Zero](https://github.com/flipperdevices/flipperzero-firmware) -- Official Flipper Zero firmware
@@ -11,15 +11,21 @@ My collection of IR, Sub-Ghz, remotes, and other misc files related to the [Flip
 
 [Rouge Master](https://github.com/RogueMaster/flipperzero-firmware-wPlugins) -- This firmware is a fork of Unleashed and the main Flipper Devices FW
 
-[Dexv](https://github.com/DXVVAY/Dexvmaster0) -- Xtreme fork
+[Dexv](https://github.com/DXVVAY/Dexvmaster0) -- Flipper-Xtreme fork
 
-[SquachWare](https://github.com/skizzophrenic/SquachWare-CFW) -- Fork of flipper zero official: Adds: Custom Graphics, Community apps and misc files
+[SquachWare](https://github.com/skizzophrenic/SquachWare-CFW) -- Flipper Zero Official fork. Adds Custom Graphics, Community apps and misc files
 
  
  
  
 ## Instructions / Documentation / Forums
-[Flipper Zero - Official Documentation](https://docs.flipperzero.one/) -- [Unofficial Community Wiki](https://flipperzero.miraheze.org/wiki/Main_Page)
+[Flipper Zero](https://docs.flipperzero.one/)  -- Official Documentation
+
+[Firmware Recovery](https://docs.flipperzero.one/basics/firmware-update/firmware-recovery) -- Troubleshooting firmware problems
+
+[Battery Troubleshooting](https://cdn.flipperzero.one/self-repair-guide.pdf) -- Troubleshooting battery problems
+
+[Unofficial Community Wiki](https://flipperzero.miraheze.org/wiki/Main_Page)
 
 [How to Upload .bin to ESP32/ESP8266](https://github.com/SequoiaSan/Guide-How-To-Upload-bin-to-ESP8266-ESP32) -- Guide on how to upload precompiled bin files to ESP8266/ESP32
 
@@ -31,6 +37,11 @@ My collection of IR, Sub-Ghz, remotes, and other misc files related to the [Flip
 
 [Flipper Zero GPIO Pinout](https://miro.com/app/board/uXjVO_LaYYI=/?moveToWidget=3458764522696947614&cot=10) -- Official GPIO pinouts.
 
+[Flipper Zero Disasembly Guide](https://www.ifixit.com/Guide/Flipper+Zero+Disassembly/151455) -- Difficulty: Moderate, Time: 8-15 Minutes. [Video](https://youtu.be/38pHe7M4vl8)
+
+[ESP32 Marauder](https://github.com/justcallmekoko/ESP32Marauder/wiki/flipper-zero) -- Portable Wifi / Bluetooth penetration testing -- [Video](https://youtu.be/_YLTpNo5xa0)
+
+
 ## Plugin / Development
 
 [Flipper Plugin Tutorial](https://github.com/DroomOne/Flipper-Plugin-Tutorial) -- Hello World!
@@ -40,6 +51,8 @@ My collection of IR, Sub-Ghz, remotes, and other misc files related to the [Flip
 [CLion IDE - How to setup workspace for flipper firmware development](https://krasovs.ky/2022/11/01/flipper-zero-clion.html) -- Writing and Debugging in CLion
 
 [Flipper Plugin Howto](https://github.com/csBlueChip/FlipperZero_plugin_howto) -- A simple plugin for the FlipperZero written as a tutorial example
+
+[The Hitchhiker's Guide to the Flipper Releasing](https://gist.github.com/Th3Un1q3/233fa6900d13caa95c6383e53a92bed1) -- The purpose of this document is to simplify development for Flipper Zero platform.
 
 
 ## Flipper Tools & Apps
@@ -67,7 +80,14 @@ My collection of IR, Sub-Ghz, remotes, and other misc files related to the [Flip
 
 [csv2ir](https://github.com/Spexivus/csv2ir) -- Convert IRDB CSV's into Flipper .ir format
 
+[dolphin_state.py](https://github.com/DroomOne/FlipperScripts) -- Reads/Writes the DolphinStoreData struct from dolphin.state files.
+
+[MusicXML to Flipper Music Format](https://github.com/white-gecko/musicxml2fmf0) -- This script reads a (not compressed) [MusicXML](https://en.wikipedia.org/wiki/MusicXML) file and transforms it to the Flipper Music Format 
+
 ## External Hardware: Plugins
+
+[Add-on Modules](https://github.com/UberGuidoZ/Flipper/tree/main/GPIO) -- (ESP32, ESP8266, ESP32-CAM, ESP32-S2 WROVER, NRF24, Raspberry PI UART etc..)
+
 
 [i2c tools](https://github.com/DarkFlippers/unleashed-firmware/blob/dev/applications/external/flipper_i2ctools/README.md) -- Guide on using FlipperZeros i2c tools
 
@@ -108,6 +128,8 @@ My collection of IR, Sub-Ghz, remotes, and other misc files related to the [Flip
 [Flipper-IRDB](https://github.com/logickworkshop/Flipper-IRDB) -- IR dumps for various appliances
 
 [XBox IR Controller](https://github.com/gebeto/flipper-xbox-controller) -- Control XBox One via IR
+
+[PAGGER](https://meoker.github.io/pagger/) -- A collection of Sub-GHz files generators compatible with the Flipper Zero to handle restaurants/kiosks paging systems.
 
 
 
