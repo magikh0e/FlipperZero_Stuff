@@ -1,4 +1,6 @@
-# FlipperZero_Stuff
+# FlipperZero_Stuff repo
+
+My collection of IR, Sub-Ghz, remotes, and other misc files related to the [Flipper Zero](https://www.flipperzero.one/)
 
 ## Firmware
 
