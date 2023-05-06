@@ -3,18 +3,13 @@
 My collection of IR, Sub-Ghz, remotes, and other misc files related to the [Flipper Zero](https://www.flipperzero.one/)
 
 ## Firmware
-### Official
-[Flipper Zero Official](https://github.com/flipperdevices/flipperzero-firmware)
+[Flipper Zero](https://github.com/flipperdevices/flipperzero-firmware) -- Official Flipper Zero firmware
 
-### Third Party
-[Unleashed Firmware](https://github.com/DarkFlippers/unleashed-firmware)
-- Most stable custom firmware focused on new features and improvements of original firmware components, with almost no UI changes
+[Unleashed Firmware](https://github.com/DarkFlippers/unleashed-firmware) -- Most stable custom firmware focused on new features and improvements of original firmware components, with almost no UI changes
 
-[Flipper Xtreme](https://github.com/ClaraCrazy/Flipper-Xtreme)
-- The goal of this Firmware is to regularly bring out amazing updates based on what the community wants, with an actual understanding of whats going on. Fixing bugs that are regularly talked about, removing unstable / broken applications (.FAP) and actually using the level system that just sits abandoned everywhere else.
+[Flipper Xtreme](https://github.com/ClaraCrazy/Flipper-Xtreme) -- The goal of this Firmware is to regularly bring out amazing updates based on what the community wants, with an actual understanding of whats going on. Fixing bugs that are regularly talked about, removing unstable / broken applications (.FAP) and actually using the level system that just sits abandoned everywhere else.
 
-[Rouge Master](https://github.com/RogueMaster/flipperzero-firmware-wPlugins)
- - This firmware is a fork of Unleashed and the main Flipper Devices FW
+[Rouge Master](https://github.com/RogueMaster/flipperzero-firmware-wPlugins) -- This firmware is a fork of Unleashed and the main Flipper Devices FW
 
 [Dexv](https://github.com/DXVVAY/Dexvmaster0) -- Xtreme fork
 
@@ -23,10 +18,8 @@ My collection of IR, Sub-Ghz, remotes, and other misc files related to the [Flip
  
  
  
-## Instructions
+## Instructions / Documentation / Forums
 [Flipper Zero - Official Documentation](https://docs.flipperzero.one/)
-
-[BadUSB: how to add new keyboard layouts](https://github.com/dummy-decoy/flipperzero_badusb_kl)
 
 
 
@@ -101,6 +94,8 @@ My collection of IR, Sub-Ghz, remotes, and other misc files related to the [Flip
 
 ## BadUSB Stuff
 
+[Adding new keyboard layouts](https://github.com/dummy-decoy/flipperzero_badusb_kl)
+
 [UNC0V3R3D BadUSB collection](https://github.com/UNC0V3R3D/Flipper_Zero-BadUsb)
 
 [FalsePhilosophers Flipper BadUSB](https://github.com/FalsePhilosopher/badusb) -- Flipper zero community ducky payload repo.
@@ -108,4 +103,7 @@ My collection of IR, Sub-Ghz, remotes, and other misc files related to the [Flip
 [Generic BadUSB Payloads](https://github.com/nocomp/Flipper_Zero_Badusb_hack5_payloads) -- Hak5 Ducky script payloads
 
 [USB HID Autofire](https://github.com/pbek/usb_hid_autofire) -- Send left clicks as a USB HID Device
+
+[Mouse Jiggler](https://github.com/MuddledBox/flipperzero-firmware/tree/Mouse_Jiggler/applications/mouse_jiggler) -- Mouse Jiggler
+
 
