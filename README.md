@@ -44,6 +44,7 @@ My collection of IR, Sub-Ghz, remotes, and other misc files related to the [Flip
 
 [SerialHex2FlipperZeroInfrared](https://github.com/maehw/SerialHex2FlipperZeroInfrared) - Convert IR serial messages into FlipperZero compatible IR files
 
+[Spectrum Analyzer](https://github.com/jolcese/flipperzero-firmware/tree/spectrum/applications/spectrum_analyzer) -- Sub-Ghz spectrum analyzer
 
 ## Plugins that work with external hardware
 
@@ -106,4 +107,5 @@ My collection of IR, Sub-Ghz, remotes, and other misc files related to the [Flip
 
 [Mouse Jiggler](https://github.com/MuddledBox/flipperzero-firmware/tree/Mouse_Jiggler/applications/mouse_jiggler) -- Mouse Jiggler
 
+[FlipperZero-USB-Keyboard](https://github.com/huuck/FlipperZeroUSBKeyboard) -- A refactor of the BT remote keyboard to work over USB.
 
