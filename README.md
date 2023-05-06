@@ -46,7 +46,10 @@
 ## Sub-Ghz, Remotes, IR, etc..
 
 [UberGuidoZ Playground - Large collection of files - Github](https://github.com/UberGuidoZ/Flipper)
+
 [Awesome Flipper Zero](https://github.com/djsime1/awesome-flipperzero)
+
+[magikh0es Flipper Zero Stuff](https://github.com/magikh0e/FlipperZero_Stuff/)
 
 []()
 []()
