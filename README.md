@@ -26,29 +26,34 @@ My collection of IR, Sub-Ghz, remotes, and other misc files related to the [Flip
 
 
 
-## Plugin Development
+## Plugin / Development
 
-[Hello world - plugin tutorial](https://github.com/DroomOne/Flipper-Plugin-Tutorial)
+[Flipper Plugin Tutorial](https://github.com/DroomOne/Flipper-Plugin-Tutorial) -- Hello World!
 
+[ GUI editor/design builder for Flipper Zero](https://ilin.pt/stuff/fui-editor/) -- Draw any graphics and use generated code in your Flipper application
 
+[CLion IDE - How to setup workspace for flipper firmware development](https://krasovs.ky/2022/11/01/flipper-zero-clion.html)
+ -- Writing and Debugging in CLion
 
 ## Plugins that work with external hardware
 
-[How to use: i2c tools](https://github.com/DarkFlippers/unleashed-firmware/blob/dev/applications/external/flipper_i2ctools/README.md)
+[i2c tools](https://github.com/DarkFlippers/unleashed-firmware/blob/dev/applications/external/flipper_i2ctools/README.md)
 
-[How to use: [ESP32] Wifi Marauder](https://github.com/UberGuidoZ/Flipper/tree/main/Wifi_DevBoard)
+[WiFi Scanner](https://github.com/SequoiaSan/FlipperZero-WiFi-Scanner_Module#readme)
 
-[How to use: [WiFi] Scanner](https://github.com/SequoiaSan/FlipperZero-WiFi-Scanner_Module#readme)
+[ESP32 - Wifi Marauder](https://github.com/UberGuidoZ/Flipper/tree/main/Wifi_DevBoard)
 
-[[WiFi] Scanner - Web Flasher for module firmware](https://sequoiasan.github.io/FlipperZero-WiFi-Scanner_Module/)
+[ESP8266 - Deauther](https://github.com/SequoiaSan/FlipperZero-Wifi-ESP8266-Deauther-Module#readme)
 
-[How to use: [ESP8266] Deauther](https://github.com/SequoiaSan/FlipperZero-Wifi-ESP8266-Deauther-Module#readme)
+[How to Upload .bin to ESP32/ESP8266](https://github.com/SequoiaSan/Guide-How-To-Upload-bin-to-ESP8266-ESP32)
 
-[How to use: [NRF24] plugins](https://github.com/DarkFlippers/unleashed-firmware/blob/dev/documentation/NRF24.md)
+[NRF24 Plugins](https://github.com/DarkFlippers/unleashed-firmware/blob/dev/documentation/NRF24.md)
 
-[Windows: How to Upload .bin to ESP32/ESP8266](https://github.com/SequoiaSan/Guide-How-To-Upload-bin-to-ESP8266-ESP32)
+[WiFi Scanner - Web Flasher for module firmware](https://sequoiasan.github.io/FlipperZero-WiFi-Scanner_Module/)
 
-[How to use: [GPIO] SentrySafe plugin](https://github.com/DarkFlippers/unleashed-firmware/blob/dev/documentation/SentrySafe.md)
+[Using GPIO to Crack A Sentry Safe](https://github.com/DarkFlippers/unleashed-firmware/blob/dev/documentation/SentrySafe.md)
+
+
 
 []()
 []()
