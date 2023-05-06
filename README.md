@@ -3,7 +3,6 @@
 My collection of IR, Sub-Ghz, remotes, and other misc files related to the [Flipper Zero](https://www.flipperzero.one/)
 
 ## Firmware
-
 ### Official
 [Flipper Zero Official](https://github.com/flipperdevices/flipperzero-firmware)
 
@@ -17,10 +16,21 @@ My collection of IR, Sub-Ghz, remotes, and other misc files related to the [Flip
 [Rouge Master](https://github.com/RogueMaster/flipperzero-firmware-wPlugins)
  - This firmware is a fork of Unleashed and the main Flipper Devices FW
  
+ 
+ 
+ 
 ## Instructions
 [Flipper Zero - Official Documentation](https://docs.flipperzero.one/)
 
 [BadUSB: how to add new keyboard layouts](https://github.com/dummy-decoy/flipperzero_badusb_kl)
+
+
+
+## Plugin Development
+
+[Hello world - plugin tutorial](https://github.com/DroomOne/Flipper-Plugin-Tutorial)
+
+
 
 ## Plugins that work with external hardware
 
@@ -39,6 +49,7 @@ My collection of IR, Sub-Ghz, remotes, and other misc files related to the [Flip
 [Windows: How to Upload .bin to ESP32/ESP8266](https://github.com/SequoiaSan/Guide-How-To-Upload-bin-to-ESP8266-ESP32)
 
 [How to use: [GPIO] SentrySafe plugin](https://github.com/DarkFlippers/unleashed-firmware/blob/dev/documentation/SentrySafe.md)
+
 []()
 []()
 []()
