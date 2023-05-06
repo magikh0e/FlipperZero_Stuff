@@ -1,0 +1,9 @@
+REMOTE: /ext/infrared/Arizerxq2.ir
+UP: Fan_off
+DOWN: Fan_low
+LEFT: Fan_med
+RIGHT: Fan_high
+OK: Power
+BACK: Timer_btn
+UPHOLD: Temp+
+DOWNHOLD: Temp-
