@@ -121,8 +121,6 @@ My collection of IR, Sub-Ghz, remotes, links and other misc files related to the
 
 [Awesome Flipper Zero](https://github.com/djsime1/awesome-flipperzero) -- A collection of Awesome resources for the Flipper Zero device.
 
-[magikh0es Flipper Zero Stuff](https://github.com/magikh0e/FlipperZero_Stuff/) -- This page and stuff I have created for the FlipperZero
-
 [FlipperZero-TouchTunes](https://github.com/jimilinuxguy/flipperzero-touchtunes) -- TouchTunes remote dump
 
 [Universal Intercom Keys](https://github.com/GlUTEN-BASH/Flipper-Starnew) -- Universal Intercom Keys
