@@ -46,7 +46,7 @@ My collection of IR, Sub-Ghz, remotes, and other misc files related to the [Flip
 
 [Spectrum Analyzer](https://github.com/jolcese/flipperzero-firmware/tree/spectrum/applications/spectrum_analyzer) -- Sub-Ghz spectrum analyzer
 
-## Plugins that work with external hardware
+## External Hardware: Plugins
 
 [i2c tools](https://github.com/DarkFlippers/unleashed-firmware/blob/dev/applications/external/flipper_i2ctools/README.md)
 
