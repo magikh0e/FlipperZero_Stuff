@@ -128,7 +128,7 @@ My collection of IR, Sub-Ghz, remotes, links and other misc files related to the
 
 [FlipperZero-Goodies](https://github.com/wetox-team/flipperzero-goodies) -- Intercom keys, scripts.
 
-[Flipper-IRDB](https://github.com/logickworkshop/Flipper-IRDB) -- IR dumps for various appliances
+[Flipper-IRDB](https://github.com/Lucaslhm/Flipper-IRDB) -- IR dumps
 
 [XBox IR Controller](https://github.com/gebeto/flipper-xbox-controller) -- Control XBox One via IR
 
