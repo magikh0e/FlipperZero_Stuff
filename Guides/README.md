@@ -1,4 +1,4 @@
-# Creating A Infrared Remote
+# Creating A Custom Infrared Remote UI
 
 Remote UI [Instructions](Guides/Infrared%20Remote%20UI.md)
 >Apps->Tools->IR Remote
