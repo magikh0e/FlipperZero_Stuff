@@ -19,9 +19,17 @@ My collection of IR, Sub-Ghz, remotes, and other misc files related to the [Flip
  
  
 ## Instructions / Documentation / Forums
-[Flipper Zero - Official Documentation](https://docs.flipperzero.one/)
+[Flipper Zero - Official Documentation](https://docs.flipperzero.one/) -- [Unofficial Community Wiki](https://flipperzero.miraheze.org/wiki/Main_Page)
 
+[How to Upload .bin to ESP32/ESP8266](https://github.com/SequoiaSan/Guide-How-To-Upload-bin-to-ESP8266-ESP32)
 
+[Using GPIO to Crack A Sentry Safe](https://github.com/DarkFlippers/unleashed-firmware/blob/dev/documentation/SentrySafe.md) 
+
+[Reset Forgotten PIN](https://gist.github.com/djsime1/18d73b981249859f17aab3e2bfd2b600) - How to reset your device's PIN code
+
+[Flipper Zero Hacking 101](https://flipper.pingywon.com/) --  Guides with screenshots, files, and general help.
+
+[Flipper Zero GPIO Pinout](https://miro.com/app/board/uXjVO_LaYYI=/?moveToWidget=3458764522696947614&cot=10) -- Official GPIO pinouts.
 
 ## Plugin / Development
 
@@ -38,7 +46,13 @@ My collection of IR, Sub-Ghz, remotes, and other misc files related to the [Flip
 ## Flipper Tools & Apps
 [Flipper Maker](https://flippermaker.github.io/) -- Generate Flipper Zero Files on the fly
 
-[flipperzero-bruteforce](https://github.com/tobiabocchi/flipperzero-bruteforce) -- Generate .sub files to brute force Sub-GHz OOK.
+[Flipper File Toolbox](https://github.com/evilpete/flipper_toolbox) -- Scripts for generating Flipper data files.
+
+[FlipperZero CLI Tools](https://github.com/lomalkin/flipperzero-cli-tools) -- Python scripts to screenshot/stream the flipper zero screen
+
+[Viewing System Logs](https://gist.github.com/jaflo/50c35c46f3ecada7a18c9e5cc203a3f8) -- Dump system logs to serial CLI
+
+[FlipperZero-bruteforce](https://github.com/tobiabocchi/flipperzero-bruteforce) -- Generate .sub files to brute force Sub-GHz OOK.
 
 [T119 Brute Forcer](https://github.com/xb8/t119bruteforcer) -- Triggers Retekess T119 restaraunt pagers
 
@@ -46,23 +60,27 @@ My collection of IR, Sub-Ghz, remotes, and other misc files related to the [Flip
 
 [Spectrum Analyzer](https://github.com/jolcese/flipperzero-firmware/tree/spectrum/applications/spectrum_analyzer) -- Sub-Ghz spectrum analyzer
 
+[OOK to .sub](https://gist.github.com/jinschoi/f39dbd82e4e3d99d32ab6a9b8dfc2f55) -- Python script to generate Flipper RAW .sub files from OOK bitstreams.
+
+[FZTEA](https://github.com/jon4hz/fztea) -- Connect to your flippers UI over serial or SSH
+
+[fzfs](https://github.com/dakhnod/fzfs) -- Flipper Zero filesystem driver
+
+[csv2ir](https://github.com/Spexivus/csv2ir) -- Convert IRDB CSV's into Flipper .ir format
+
 ## External Hardware: Plugins
 
 [i2c tools](https://github.com/DarkFlippers/unleashed-firmware/blob/dev/applications/external/flipper_i2ctools/README.md)
 
-[WiFi Scanner](https://github.com/SequoiaSan/FlipperZero-WiFi-Scanner_Module#readme)
+[WiFi Scanner](https://github.com/SequoiaSan/FlipperZero-WiFi-Scanner_Module#readme) -- [[WiFi Scanner Module Flasher Tool](https://sequoiasan.github.io/FlipperZero-WiFi-Scanner_Module/)]
 
 [ESP32 - Wifi Marauder](https://github.com/UberGuidoZ/Flipper/tree/main/Wifi_DevBoard)
 
-[ESP8266 - Deauther](https://github.com/SequoiaSan/FlipperZero-Wifi-ESP8266-Deauther-Module#readme)
-
-[How to Upload .bin to ESP32/ESP8266](https://github.com/SequoiaSan/Guide-How-To-Upload-bin-to-ESP8266-ESP32)
+[ESP8266 - Deauther](https://github.com/SequoiaSan/FlipperZero-Wifi-ESP8266-Deauther-Module#readme)  
 
 [NRF24 Plugins](https://github.com/DarkFlippers/unleashed-firmware/blob/dev/documentation/NRF24.md)
 
-[WiFi Scanner - Web Flasher for module firmware](https://sequoiasan.github.io/FlipperZero-WiFi-Scanner_Module/)
-
-[Using GPIO to Crack A Sentry Safe](https://github.com/DarkFlippers/unleashed-firmware/blob/dev/documentation/SentrySafe.md) -- [Sentry Safe Crack Plugin](https://github.com/H4ckd4ddy/flipperzero-sentry-safe-plugin)
+[Sentry Safe Crack](https://github.com/H4ckd4ddy/flipperzero-sentry-safe-plugin)
 
 [FlipperZero-GPS](https://github.com/ezod/flipperzero-gps) -- Display data from a serial GPS module
 
@@ -76,7 +94,7 @@ My collection of IR, Sub-Ghz, remotes, and other misc files related to the [Flip
 
 [UberGuidoZ Playground - Large collection of files - Github](https://github.com/UberGuidoZ/Flipper) -- Large collection of files, documentation, and dumps of all kinds.
 
-[Awesome Flipper Zero](https://github.com/djsime1/awesome-flipperzero)
+[Awesome Flipper Zero](https://github.com/djsime1/awesome-flipperzero) -- A collection of Awesome resources for the Flipper Zero device.
 
 [magikh0es Flipper Zero Stuff](https://github.com/magikh0e/FlipperZero_Stuff/)
 
@@ -95,9 +113,9 @@ My collection of IR, Sub-Ghz, remotes, and other misc files related to the [Flip
 
 ## BadUSB Stuff
 
-[Adding new keyboard layouts](https://github.com/dummy-decoy/flipperzero_badusb_kl)
+[Adding new keyboard layouts](https://github.com/dummy-decoy/flipperzero_badusb_kl) -- Keyboard layout file generator 
 
-[UNC0V3R3D BadUSB collection](https://github.com/UNC0V3R3D/Flipper_Zero-BadUsb)
+[UNC0V3R3D BadUSB collection](https://github.com/UNC0V3R3D/Flipper_Zero-BadUsb) -- The Ultimate Flipper Zero Badusb Collection
 
 [FalsePhilosophers Flipper BadUSB](https://github.com/FalsePhilosopher/badusb) -- Flipper zero community ducky payload repo.
 
@@ -108,4 +126,11 @@ My collection of IR, Sub-Ghz, remotes, and other misc files related to the [Flip
 [Mouse Jiggler](https://github.com/MuddledBox/flipperzero-firmware/tree/Mouse_Jiggler/applications/mouse_jiggler) -- Mouse Jiggler
 
 [FlipperZero-USB-Keyboard](https://github.com/huuck/FlipperZeroUSBKeyboard) -- A refactor of the BT remote keyboard to work over USB.
+
+[BadUSB Keyboard Converter](http://helppox.com/badusbconvert.html) -- Payload converter for non-US keyboard layouts
+
+
+## Off-device & Debugging
+
+[Official Web Interface](https://lab.flipper.net/) -- Web interface to interact with Flipper, including Paint and SUB/IR analyzer.
 
