@@ -1,6 +1,9 @@
 # FlipperZero_Stuff repo
-
 My collection of IR, Sub-Ghz, remotes, links and other misc files related to the [Flipper Zero](https://www.flipperzero.one/) device
+
+
+![A FlipperZero Dolphin image](https://thumb.tildacdn.com/tild3139-3163-4538-b437-643239623131/-/resize/690x/-/format/webp/fpr_web_1.jpg)
+
 
 ## Firmware
 [Flipper Zero](https://github.com/flipperdevices/flipperzero-firmware) -- Official Flipper Zero firmware
