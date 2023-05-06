@@ -21,9 +21,9 @@ My collection of IR, Sub-Ghz, remotes, and other misc files related to the [Flip
 ## Instructions / Documentation / Forums
 [Flipper Zero - Official Documentation](https://docs.flipperzero.one/) -- [Unofficial Community Wiki](https://flipperzero.miraheze.org/wiki/Main_Page)
 
-[How to Upload .bin to ESP32/ESP8266](https://github.com/SequoiaSan/Guide-How-To-Upload-bin-to-ESP8266-ESP32)
+[How to Upload .bin to ESP32/ESP8266](https://github.com/SequoiaSan/Guide-How-To-Upload-bin-to-ESP8266-ESP32) -- Guide on how to upload precompiled bin files to ESP8266/ESP32
 
-[Using GPIO to Crack A Sentry Safe](https://github.com/DarkFlippers/unleashed-firmware/blob/dev/documentation/SentrySafe.md) 
+[Using FlipperZeros GPIOs to Crack A Sentry Safe](https://github.com/DarkFlippers/unleashed-firmware/blob/dev/documentation/SentrySafe.md) -- Using Flipper zero to exploit a vulnerability to open any Sentry Safe and Master Lock electronic safe without the need for a pin code.
 
 [Reset Forgotten PIN](https://gist.github.com/djsime1/18d73b981249859f17aab3e2bfd2b600) - How to reset your device's PIN code
 
@@ -37,10 +37,9 @@ My collection of IR, Sub-Ghz, remotes, and other misc files related to the [Flip
 
 [ GUI editor/design builder for Flipper Zero](https://ilin.pt/stuff/fui-editor/) -- Draw any graphics and use generated code in your Flipper application
 
-[CLion IDE - How to setup workspace for flipper firmware development](https://krasovs.ky/2022/11/01/flipper-zero-clion.html)
- -- Writing and Debugging in CLion
+[CLion IDE - How to setup workspace for flipper firmware development](https://krasovs.ky/2022/11/01/flipper-zero-clion.html) -- Writing and Debugging in CLion
 
-[Flipper Plugin Howto](https://github.com/csBlueChip/FlipperZero_plugin_howto)
+[Flipper Plugin Howto](https://github.com/csBlueChip/FlipperZero_plugin_howto) -- A simple plugin for the FlipperZero written as a tutorial example
 
 
 ## Flipper Tools & Apps
@@ -70,17 +69,19 @@ My collection of IR, Sub-Ghz, remotes, and other misc files related to the [Flip
 
 ## External Hardware: Plugins
 
-[i2c tools](https://github.com/DarkFlippers/unleashed-firmware/blob/dev/applications/external/flipper_i2ctools/README.md)
+[i2c tools](https://github.com/DarkFlippers/unleashed-firmware/blob/dev/applications/external/flipper_i2ctools/README.md) -- Guide on using FlipperZeros i2c tools
 
-[WiFi Scanner](https://github.com/SequoiaSan/FlipperZero-WiFi-Scanner_Module#readme) -- [[WiFi Scanner Module Flasher Tool](https://sequoiasan.github.io/FlipperZero-WiFi-Scanner_Module/)]
+[WiFi Scanner](https://github.com/SequoiaSan/FlipperZero-WiFi-Scanner_Module#readme) -- WiFi Scanner Module for FlipperZero based on ESP8266/ESP32 (results with ESP8266 much better than with ESP32)
 
-[ESP32 - Wifi Marauder](https://github.com/UberGuidoZ/Flipper/tree/main/Wifi_DevBoard)
+[WiFi Scanner Module Flasher Tool](https://sequoiasan.github.io/FlipperZero-WiFi-Scanner_Module/) -- Sequoia has been kind enough to create a web flasher for the modules, if you want to avoid having to use the Arduino IDE.
 
-[ESP8266 - Deauther](https://github.com/SequoiaSan/FlipperZero-Wifi-ESP8266-Deauther-Module#readme)  
+[ESP32 - Wifi Marauder](https://github.com/UberGuidoZ/Flipper/tree/main/Wifi_DevBoard) -- ESP32 Wi-Fi Pentest Tool
 
-[NRF24 Plugins](https://github.com/DarkFlippers/unleashed-firmware/blob/dev/documentation/NRF24.md)
+[ESP8266 - Deauther](https://github.com/SequoiaSan/FlipperZero-Wifi-ESP8266-Deauther-Module#readme) --  WiFi Deauther Module for FlipperZero based on ESP8266. This module is full analog of DSTIKE Deauther. 
 
-[Sentry Safe Crack](https://github.com/H4ckd4ddy/flipperzero-sentry-safe-plugin)
+[NRF24 Plugins](https://github.com/DarkFlippers/unleashed-firmware/blob/dev/documentation/NRF24.md) -- An NRF24 driver for the Flipper Zero device. The NRF24 is a popular line of 2.4GHz radio transceivers from Nordic Semiconductors. This library is not currently complete, but functional.
+
+[Sentry Safe Crack](https://github.com/H4ckd4ddy/flipperzero-sentry-safe-plugin) - Flipper zero exploiting vulnerability to open any Sentry Safe and Master Lock electronic safe without any pin code.
 
 [FlipperZero-GPS](https://github.com/ezod/flipperzero-gps) -- Display data from a serial GPS module
 
@@ -96,11 +97,11 @@ My collection of IR, Sub-Ghz, remotes, and other misc files related to the [Flip
 
 [Awesome Flipper Zero](https://github.com/djsime1/awesome-flipperzero) -- A collection of Awesome resources for the Flipper Zero device.
 
-[magikh0es Flipper Zero Stuff](https://github.com/magikh0e/FlipperZero_Stuff/)
+[magikh0es Flipper Zero Stuff](https://github.com/magikh0e/FlipperZero_Stuff/) -- This page and stuff I have created for the FlipperZero
 
 [FlipperZero-TouchTunes](https://github.com/jimilinuxguy/flipperzero-touchtunes) -- TouchTunes remote dump
 
-[Universal Intercom Keys](https://github.com/GlUTEN-BASH/Flipper-Starnew)
+[Universal Intercom Keys](https://github.com/GlUTEN-BASH/Flipper-Starnew) -- Universal Intercom Keys
 
 [FlipperZero-Goodies](https://github.com/wetox-team/flipperzero-goodies) -- Intercom keys, scripts.
 
