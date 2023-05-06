@@ -4,7 +4,7 @@ REM # Title        : Desktop Signal Msg     |
 REM # Author       : magikh0e               |
 REM # Version      : 1.0                    |
 REM # Category     : Execution              | 
-REM # Target       : Windows        |
+REM # Target       : Windows                |
 REM #                                       |
 REM #########################################
 
