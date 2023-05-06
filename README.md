@@ -15,7 +15,11 @@ My collection of IR, Sub-Ghz, remotes, and other misc files related to the [Flip
 
 [Rouge Master](https://github.com/RogueMaster/flipperzero-firmware-wPlugins)
  - This firmware is a fork of Unleashed and the main Flipper Devices FW
- 
+
+[Dexv](https://github.com/DXVVAY/Dexvmaster0) -- Xtreme fork
+
+[SquachWare](https://github.com/skizzophrenic/SquachWare-CFW) -- Fork of flipper zero official: Adds: Custom Graphics, Community apps and misc files
+
  
  
  
@@ -66,7 +70,7 @@ My collection of IR, Sub-Ghz, remotes, and other misc files related to the [Flip
 
 [Using GPIO to Crack A Sentry Safe](https://github.com/DarkFlippers/unleashed-firmware/blob/dev/documentation/SentrySafe.md) -- [Sentry Safe Crack Plugin](https://github.com/H4ckd4ddy/flipperzero-sentry-safe-plugin)
 
-
+[FlipperZero-GPS](https://github.com/ezod/flipperzero-gps) -- Display data from a serial GPS module
 
 []()
 []()
@@ -90,6 +94,9 @@ My collection of IR, Sub-Ghz, remotes, and other misc files related to the [Flip
 
 [Flipper-IRDB](https://github.com/logickworkshop/Flipper-IRDB) -- IR dumps for various appliances
 
+[XBox IR Controller](https://github.com/gebeto/flipper-xbox-controller) -- Control XBox One via IR
+
+
 
 
 ## BadUSB Stuff
@@ -100,5 +107,5 @@ My collection of IR, Sub-Ghz, remotes, and other misc files related to the [Flip
 
 [Generic BadUSB Payloads](https://github.com/nocomp/Flipper_Zero_Badusb_hack5_payloads) -- Hak5 Ducky script payloads
 
-[]()
+[USB HID Autofire](https://github.com/pbek/usb_hid_autofire) -- Send left clicks as a USB HID Device
 
