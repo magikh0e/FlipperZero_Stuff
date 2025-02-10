@@ -11,7 +11,9 @@ My collection of IR, Sub-Ghz, remotes, links and other misc files related to the
 
 [Unleashed Firmware](https://github.com/DarkFlippers/unleashed-firmware) -- Most stable custom firmware focused on new features and improvements of original firmware components, with almost no UI changes
 
-[Flipper Xtreme](https://github.com/ClaraCrazy/Flipper-Xtreme) -- The goal of this Firmware is to regularly bring out amazing updates based on what the community wants, with an actual understanding of whats going on. Fixing bugs that are regularly talked about, removing unstable / broken applications (.FAP) and actually using the level system that just sits abandoned everywhere else.
+~~[Flipper Xtreme](https://github.com/ClaraCrazy/Flipper-Xtreme) -- The goal of this Firmware is to regularly bring out amazing updates based on what the community wants, with an actual understanding of whats going on. Fixing bugs that are regularly talked about, removing unstable / broken applications (.FAP) and actually using the level system that just sits abandoned everywhere else.~~  
+
+[Momentum](https://awesome-flipper.com/firmware/momentum/)  -- This custom firmware is based on the Official Firmware, and includes most of the awesome features from Unleashed. It is a direct continuation of the Xtreme firmware, built by the same (and only) developers who made that project special.
 
 [Rouge Master](https://github.com/RogueMaster/flipperzero-firmware-wPlugins) -- This firmware is a fork of Unleashed and the main Flipper Devices FW
 
