@@ -129,6 +129,12 @@ Original files I've made — as opposed to the curated outbound links further do
 
 ## BadUSB Stuff
 
+[I-Am-Jakoby Flipper BadUSB](https://github.com/I-Am-Jakoby/Flipper-Zero-BadUSB) -- Popular, nearly plug-and-play payload collection: WiFi/IP grabbers, recon, browser data, keylogger, and more  
+[Official Hak5 Ducky Payloads](https://github.com/hak5/usbrubberducky-payloads) -- Hak5's official USB Rubber Ducky payload library; DuckyScript runs on the Flipper as-is  
+[dsymbol ducky-payloads](https://github.com/dsymbol/ducky-payloads) -- Cross-platform payloads for Rubber Ducky, Flipper Zero BadUSB, and Pico-Ducky  
+[BadBT](https://github.com/AGO061/BadBT) -- Run BadUSB (DuckyScript) payloads over Bluetooth by emulating a BT keyboard (needs custom firmware)  
+[Hak5 Payload Studio](https://payloadstudio.hak5.org) -- Browser IDE for writing and validating DuckyScript payloads  
+[Official Bad USB Docs](https://docs.flipper.net/zero/bad-usb) -- Flipper's Bad USB documentation and DuckyScript reference  
 [Adding new keyboard layouts](https://github.com/dummy-decoy/flipperzero_badusb_kl) -- Keyboard layout file generator  
 [FalsePhilosophers Flipper BadUSB](https://github.com/FalsePhilosopher/badusb) -- Flipper zero community ducky payload repo.  
 [Generic BadUSB Payloads](https://github.com/nocomp/Flipper_Zero_Badusb_hack5_payloads) -- Hak5 Ducky script payloads  
