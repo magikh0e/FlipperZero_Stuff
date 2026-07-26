@@ -70,10 +70,17 @@ Firmware for separate ESP32 / CC1101 gadgets that pair with or stand in for the 
 [Flipper Zero Hacking 101](https://flipper.pingywon.com/) -- Guides with screenshots, files, and general help.  
 [Flipper Zero GPIO Pinout](https://miro.com/app/board/uXjVO_LaYYI=/?moveToWidget=3458764522696947614&cot=10) -- Official GPIO pinouts.  
 [Flipper Zero Disassembly Guide](https://www.ifixit.com/Teardown/Flipper+Zero+Teardown/151455) -- Difficulty: Moderate, Time: 8-15 Minutes. [Video](https://youtu.be/38pHe7M4vl8)  
+[r/flipperzero](https://reddit.com/r/flipperzero) -- The main community subreddit  
+[Official Flipper Discord](https://flipperzero.one/discord) -- Official community chat: firmware help, app dev, showcases  
+[Flipper Forum](https://forum.flipper.net) -- Official Flipper Devices support forum  
+[Flipper Community Wiki](https://flipper.wiki) -- Community-run wiki: guides, hardware, and how-tos  
 
 
 ## Plugin / Development
 
+[Official Development Docs](https://docs.flipper.net/development) -- Flipper's official firmware and app development documentation  
+[ufbt](https://github.com/flipperdevices/flipperzero-ufbt) -- Official micro Flipper Build Tool: build, debug, and flash apps with a prebuilt SDK (`pip install ufbt`), plus VS Code config  
+[Flipper Application Catalog (submit apps)](https://github.com/flipperdevices/flipper-application-catalog) -- Repo for submitting your app to the official on-device catalog  
 [Flipper Plugin Tutorial](https://github.com/DroomOne/Flipper-Plugin-Tutorial) -- Hello World!  
 [ GUI editor/design builder for Flipper Zero](https://ilin.pt/stuff/fui-editor/) -- Draw any graphics and use generated code in your Flipper application  
 [CLion IDE - How to setup workspace for flipper firmware development](https://krasovs.ky/2022/11/01/flipper-zero-clion.html) -- Writing and Debugging in CLion  
@@ -160,6 +167,8 @@ Firmware for separate ESP32 / CC1101 gadgets that pair with or stand in for the 
 
 [Official Web Interface](https://lab.flipper.net/) -- Web interface to interact with Flipper, including Paint and SUB/IR analyzer.  
 [qFlipper](https://flipper.net/pages/downloads) -- Official cross-platform desktop app: firmware updates, file manager, and screen streaming.  
+[Flipper Mobile App (Android)](https://github.com/flipperdevices/Flipper-Android-App) -- Official Android companion app (Play Store, F-Droid, or direct)  
+[Flipper Mobile App (iOS)](https://github.com/flipperdevices/Flipper-iOS-App) -- Official iOS companion app  
 [Flipper Apps Catalog](https://lab.flipper.net/apps) -- Official catalog of installable Flipper apps (.fap), browsable and installable over the web.  
 [FlipperZero CLI Tools](https://github.com/lomalkin/flipperzero-cli-tools) -- Python scripts to screenshot/stream the flipper zero screen  
 [FZTEA](https://github.com/jon4hz/fztea) -- Connect to your flippers UI over serial or SSH  
