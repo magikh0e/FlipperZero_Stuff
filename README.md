@@ -11,15 +11,15 @@ My collection of IR, Sub-Ghz, remotes, links and other misc files related to the
 - [Instructions / Documentation / Forums](#instructions--documentation--forums)
 - [Plugin / Development](#plugin--development)
 - [Flipper Tools & Apps](#flipper-tools--apps)
-- [External Hardware: Plugins](#external-hardware-plugins)
 - [Sub-Ghz, Remotes, IR, Files, Databases & Dumps](#sub-ghz-remotes-ir-files-databases--dumps)
 - [NFC & RFID](#nfc--rfid)
 - [BadUSB Stuff](#badusb-stuff)
+- [External Hardware: Plugins](#external-hardware-plugins)
 - [Off-device & Debugging](#off-device--debugging)
 
 
 ## In This Repo (my files)
-Original files I've made — as opposed to the curated outbound links further down.
+Original files I've made, as opposed to the curated outbound links further down.
 
 ### [Guides](Guides)
 - **[Creating a Custom Infrared Remote UI](Guides/Infrared%20Remote%20UI.md)** -- walkthrough for building a custom IR remote interface on the device (`Apps -> Tools -> IR Remote`).
@@ -48,9 +48,6 @@ Original files I've made — as opposed to the curated outbound links further do
 ~~[Flipper Xtreme](https://github.com/ClaraCrazy/Flipper-Xtreme) -- The goal of this Firmware is to regularly bring out amazing updates based on what the community wants, with an actual understanding of whats going on. Fixing bugs that are regularly talked about, removing unstable / broken applications (.FAP) and actually using the level system that just sits abandoned everywhere else.~~   
 ~~[SquachWare](https://github.com/skizzophrenic/SquachWare-CFW) -- Flipper Zero Official fork. Adds Custom Graphics, Community apps and misc files~~  
 
- 
- 
- 
 ### Companion / Alternative Devices
 Firmware for separate ESP32 / CC1101 gadgets that pair with or stand in for the Flipper. These do NOT flash onto the Flipper Zero itself.
 
@@ -59,19 +56,18 @@ Firmware for separate ESP32 / CC1101 gadgets that pair with or stand in for the 
 [EvilCrowRF Custom Firmware](https://github.com/h-RAT/EvilCrowRF_Custom_Firmware_CC1101_FlipperZero) -- Alternative firmware for the Evil Crow RF (dual CC1101) that reads/writes Flipper .sub files  
 
 
-
 ## Instructions / Documentation / Forums
 [Flipper Zero](https://docs.flipper.net/zero)  -- Official Documentation  
 [Firmware Recovery](https://docs.flipper.net/zero/basics/firmware-update/firmware-recovery) -- Troubleshooting firmware problems  
 [Battery Troubleshooting](https://cdn.flipperzero.one/self-repair-guide.pdf) -- Troubleshooting battery problems  
 [Awesome Flipper Zero](https://awesome-flipper.com/) -- Community-curated hub of firmware, apps, guides, and resources  
+[Awesome Flipper Zero (djsime1)](https://github.com/djsime1/awesome-flipperzero) -- A collection of Awesome resources for the Flipper Zero device  
 [How to Upload .bin to ESP32/ESP8266](https://github.com/SequoiaSan/Guide-How-To-Upload-bin-to-ESP8266-ESP32) -- Guide on how to upload precompiled bin files to ESP8266/ESP32  
 [Using FlipperZeros GPIOs to Crack A Sentry Safe](https://github.com/DarkFlippers/unleashed-firmware/blob/dev/documentation/SentrySafe.md) -- Using Flipper zero to exploit a vulnerability to open any Sentry Safe and Master Lock electronic safe without the need for a pin code.  
 [Reset Forgotten PIN](https://gist.github.com/djsime1/18d73b981249859f17aab3e2bfd2b600) - How to reset your device's PIN code  
 [Flipper Zero Hacking 101](https://flipper.pingywon.com/) --  Guides with screenshots, files, and general help.  
 [Flipper Zero GPIO Pinout](https://miro.com/app/board/uXjVO_LaYYI=/?moveToWidget=3458764522696947614&cot=10) -- Official GPIO pinouts.  
 [Flipper Zero Disassembly Guide](https://www.ifixit.com/Teardown/Flipper+Zero+Teardown/151455) -- Difficulty: Moderate, Time: 8-15 Minutes. [Video](https://youtu.be/38pHe7M4vl8)  
-[ESP32 Marauder](https://github.com/justcallmekoko/ESP32Marauder/wiki/flipper-zero) -- Portable Wifi / Bluetooth penetration testing -- [Video](https://youtu.be/_YLTpNo5xa0)  
 
 
 ## Plugin / Development
@@ -85,53 +81,31 @@ Firmware for separate ESP32 / CC1101 gadgets that pair with or stand in for the 
 
 ## Flipper Tools & Apps
 [all-the-plugins](https://github.com/xMasterX/all-the-plugins) -- Large community app pack: hundreds of extra .fap apps not in the official catalog  
-[Flipper Maker](https://flippermaker.github.io/) -- Generate Flipper Zero Files on the fly  
-[Flipper File Toolbox](https://github.com/evilpete/flipper_toolbox) -- Scripts for generating Flipper data files.  
-[FlipperZero CLI Tools](https://github.com/lomalkin/flipperzero-cli-tools) -- Python scripts to screenshot/stream the flipper zero screen  
-[Viewing System Logs](https://gist.github.com/jaflo/50c35c46f3ecada7a18c9e5cc203a3f8) -- Dump system logs to serial CLI  
+
+### Sub-GHz & IR tools
 [FlipperZero-bruteforce](https://github.com/tobiabocchi/flipperzero-bruteforce) -- Generate .sub files to brute force Sub-GHz OOK.  
 [T119 Brute Forcer](https://github.com/xb8/t119bruteforcer) -- Triggers Retekess T119 restaurant pagers  
-[SerialHex2FlipperZeroInfrared](https://github.com/maehw/SerialHex2FlipperZeroInfrared) - Convert IR serial messages into FlipperZero compatible IR files  
 [Spectrum Analyzer](https://github.com/jolcese/flipperzero-firmware/tree/spectrum/applications/spectrum_analyzer) -- Sub-Ghz spectrum analyzer  
 [OOK to .sub](https://gist.github.com/jinschoi/f39dbd82e4e3d99d32ab6a9b8dfc2f55) -- Python script to generate Flipper RAW .sub files from OOK bitstreams.  
-[FZTEA](https://github.com/jon4hz/fztea) -- Connect to your flippers UI over serial or SSH  
-[fzfs](https://github.com/dakhnod/fzfs) -- Flipper Zero filesystem driver  
+[SerialHex2FlipperZeroInfrared](https://github.com/maehw/SerialHex2FlipperZeroInfrared) - Convert IR serial messages into FlipperZero compatible IR files  
 [csv2ir](https://github.com/Spexivus/csv2ir) -- Convert IRDB CSV's into Flipper .ir format  
+
+### File & data tools
+[Flipper Maker](https://flippermaker.github.io/) -- Generate Flipper Zero Files on the fly  
+[Flipper File Toolbox](https://github.com/evilpete/flipper_toolbox) -- Scripts for generating Flipper data files.  
 [dolphin_state.py](https://github.com/DroomOne/FlipperScripts) -- Reads/Writes the DolphinStoreData struct from dolphin.state files.  
 [MusicXML to Flipper Music Format](https://github.com/white-gecko/musicxml2fmf) -- This script reads a (not compressed) [MusicXML](https://en.wikipedia.org/wiki/MusicXML) file and transforms it to the Flipper Music Format  
-
-## External Hardware: Plugins
-
-[Add-on Modules](https://github.com/UberGuidoZ/Flipper/tree/main/GPIO) -- (ESP32, ESP8266, ESP32-CAM, ESP32-S2 WROVER, NRF24, Raspberry PI UART etc..)  
-[i2c tools](https://github.com/xMasterX/all-the-plugins/blob/dev/base_pack/flipper_i2ctools/README.md) -- Guide on using FlipperZeros i2c tools  
-[WiFi Scanner](https://github.com/SequoiaSan/FlipperZero-WiFi-Scanner_Module#readme) -- WiFi Scanner Module for FlipperZero based on ESP8266/ESP32 (results with ESP8266 much better than with ESP32)  
-[WiFi Scanner Module Flasher Tool](https://sequoiasan.github.io/FlipperZero-WiFi-Scanner_Module/) -- Sequoia has been kind enough to create a web flasher for the modules, if you want to avoid having to use the Arduino IDE.  
-[ESP32 - Wifi Marauder](https://github.com/UberGuidoZ/Flipper/tree/main/Wifi_DevBoard) -- ESP32 Wi-Fi Pentest Tool  
-[Flipper WiFi Marauder companion app](https://github.com/0xchocolate/flipperzero-wifi-marauder) -- On-Flipper .fap that drives the ESP32 Marauder firmware (WiFi/BLE attacks, wardriving with a GPS module)  
-[ESP8266 - Deauther](https://github.com/SequoiaSan/FlipperZero-Wifi-ESP8266-Deauther-Module#readme) --  WiFi Deauther Module for FlipperZero based on ESP8266. This module is full analog of DSTIKE Deauther.   
-[NRF24 Plugins](https://github.com/DarkFlippers/unleashed-firmware/blob/dev/documentation/NRF24.md) -- An NRF24 driver for the Flipper Zero device. The NRF24 is a popular line of 2.4GHz radio transceivers from Nordic Semiconductors. This library is not currently complete, but functional.  
-[Sentry Safe Crack](https://github.com/H4ckd4ddy/flipperzero-sentry-safe-plugin) - Flipper zero exploiting vulnerability to open any Sentry Safe and Master Lock electronic safe without any pin code.  
-[FlipperZero-GPS](https://github.com/ezod/flipperzero-gps) -- Display data from a serial GPS module  
-[Video Game Module (Official)](https://github.com/flipperdevices/video-game-module) -- Official Raspberry Pi RP2040 add-on module; open-source firmware and schematics, also usable as a Pico-like RP2040 board  
-[Video Game Module Docs](https://docs.flipper.net/zero/video-game-module) -- Setup, official/custom firmware flashing, and development reference  
-[Unitemp](https://github.com/quen0n/unitemp-flipperzero) -- Read DHT11/22, DS18B20, BMP280, HTU21 and more temperature/humidity/pressure sensors over GPIO, i2c, or 1-Wire  
-[NRF24: Mousejack & Sniffer](https://github.com/mothball187/flipperzero-nrf24) -- The apps behind the NRF24 driver: sniff NRF24 addresses and run mousejack keystroke-injection attacks  
-[nrf24tool](https://github.com/OuinOuin74/nrf24tool) -- Enhanced NRF24 toolkit (expanded libnrf24) for the Flipper  
-[FZEasyMarauderFlash](https://github.com/SkeletonMan03/FZEasyMarauderFlash) -- One-click flasher for the ESP32 WiFi dev board (Marauder or BlackMagic), no Arduino IDE needed  
 
 
 ## Sub-Ghz, Remotes, IR, Files, Databases & Dumps
 
 [UberGuidoZ Playground - Large collection of files - Github](https://github.com/UberGuidoZ/Flipper) -- Large collection of files, documentation, and dumps of all kinds.  
-[Awesome Flipper Zero](https://github.com/djsime1/awesome-flipperzero) -- A collection of Awesome resources for the Flipper Zero device.  
 [FlipperZero-TouchTunes](https://github.com/jimilinuxguy/flipperzero-touchtunes) -- TouchTunes remote dump  
 [Universal Intercom Keys](https://github.com/glutesha/Flipper-Starnew) -- Universal Intercom Keys  
 [FlipperZero-Goodies](https://github.com/wetox-team/flipperzero-goodies) -- Intercom keys, scripts.  
 [Flipper-IRDB](https://github.com/Lucaslhm/Flipper-IRDB) -- IR dumps  
 [XBox IR Controller](https://github.com/gebeto/flipper-xbox-controller) -- Control XBox One via IR  
 [PAGGER](https://meoker.github.io/pagger/) -- A collection of Sub-GHz files generators compatible with the Flipper Zero to handle restaurants/kiosks paging systems.  
-
-
 
 
 ## NFC & RFID
@@ -159,11 +133,36 @@ Firmware for separate ESP32 / CC1101 gadgets that pair with or stand in for the 
 [BadUSB Keyboard Converter](https://helppox.com/badusbconvert.html) -- Payload converter for non-US keyboard layouts  
 
 
+## External Hardware: Plugins
+
+[Add-on Modules](https://github.com/UberGuidoZ/Flipper/tree/main/GPIO) -- (ESP32, ESP8266, ESP32-CAM, ESP32-S2 WROVER, NRF24, Raspberry PI UART etc..)  
+[ESP32 Marauder](https://github.com/justcallmekoko/ESP32Marauder/wiki/flipper-zero) -- Portable Wifi / Bluetooth penetration testing -- [Video](https://youtu.be/_YLTpNo5xa0)  
+[ESP32 - Wifi Marauder](https://github.com/UberGuidoZ/Flipper/tree/main/Wifi_DevBoard) -- ESP32 Wi-Fi Pentest Tool  
+[Flipper WiFi Marauder companion app](https://github.com/0xchocolate/flipperzero-wifi-marauder) -- On-Flipper .fap that drives the ESP32 Marauder firmware (WiFi/BLE attacks, wardriving with a GPS module)  
+[FZEasyMarauderFlash](https://github.com/SkeletonMan03/FZEasyMarauderFlash) -- One-click flasher for the ESP32 WiFi dev board (Marauder or BlackMagic), no Arduino IDE needed  
+[WiFi Scanner](https://github.com/SequoiaSan/FlipperZero-WiFi-Scanner_Module#readme) -- WiFi Scanner Module for FlipperZero based on ESP8266/ESP32 (results with ESP8266 much better than with ESP32)  
+[WiFi Scanner Module Flasher Tool](https://sequoiasan.github.io/FlipperZero-WiFi-Scanner_Module/) -- Sequoia has been kind enough to create a web flasher for the modules, if you want to avoid having to use the Arduino IDE.  
+[ESP8266 - Deauther](https://github.com/SequoiaSan/FlipperZero-Wifi-ESP8266-Deauther-Module#readme) --  WiFi Deauther Module for FlipperZero based on ESP8266. This module is full analog of DSTIKE Deauther.   
+[NRF24 Plugins](https://github.com/DarkFlippers/unleashed-firmware/blob/dev/documentation/NRF24.md) -- An NRF24 driver for the Flipper Zero device. The NRF24 is a popular line of 2.4GHz radio transceivers from Nordic Semiconductors. This library is not currently complete, but functional.  
+[NRF24: Mousejack & Sniffer](https://github.com/mothball187/flipperzero-nrf24) -- The apps behind the NRF24 driver: sniff NRF24 addresses and run mousejack keystroke-injection attacks  
+[nrf24tool](https://github.com/OuinOuin74/nrf24tool) -- Enhanced NRF24 toolkit (expanded libnrf24) for the Flipper  
+[i2c tools](https://github.com/xMasterX/all-the-plugins/blob/dev/base_pack/flipper_i2ctools/README.md) -- Guide on using FlipperZeros i2c tools  
+[Unitemp](https://github.com/quen0n/unitemp-flipperzero) -- Read DHT11/22, DS18B20, BMP280, HTU21 and more temperature/humidity/pressure sensors over GPIO, i2c, or 1-Wire  
+[FlipperZero-GPS](https://github.com/ezod/flipperzero-gps) -- Display data from a serial GPS module  
+[Video Game Module (Official)](https://github.com/flipperdevices/video-game-module) -- Official Raspberry Pi RP2040 add-on module; open-source firmware and schematics, also usable as a Pico-like RP2040 board  
+[Video Game Module Docs](https://docs.flipper.net/zero/video-game-module) -- Setup, official/custom firmware flashing, and development reference  
+[Sentry Safe Crack](https://github.com/H4ckd4ddy/flipperzero-sentry-safe-plugin) - Flipper zero exploiting vulnerability to open any Sentry Safe and Master Lock electronic safe without any pin code.  
+
+
 ## Off-device & Debugging
 
 [Official Web Interface](https://lab.flipper.net/) -- Web interface to interact with Flipper, including Paint and SUB/IR analyzer.  
 [qFlipper](https://flipper.net/pages/downloads) -- Official cross-platform desktop app: firmware updates, file manager, and screen streaming.  
 [Flipper Apps Catalog](https://lab.flipper.net/apps) -- Official catalog of installable Flipper apps (.fap), browsable and installable over the web.  
+[FlipperZero CLI Tools](https://github.com/lomalkin/flipperzero-cli-tools) -- Python scripts to screenshot/stream the flipper zero screen  
+[FZTEA](https://github.com/jon4hz/fztea) -- Connect to your flippers UI over serial or SSH  
+[fzfs](https://github.com/dakhnod/fzfs) -- Flipper Zero filesystem driver  
+[Viewing System Logs](https://gist.github.com/jaflo/50c35c46f3ecada7a18c9e5cc203a3f8) -- Dump system logs to serial CLI  
 
 
 ## Support
