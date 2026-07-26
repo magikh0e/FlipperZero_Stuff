@@ -103,6 +103,12 @@ Original files I've made — as opposed to the curated outbound links further do
 [NRF24 Plugins](https://github.com/DarkFlippers/unleashed-firmware/blob/dev/documentation/NRF24.md) -- An NRF24 driver for the Flipper Zero device. The NRF24 is a popular line of 2.4GHz radio transceivers from Nordic Semiconductors. This library is not currently complete, but functional.  
 [Sentry Safe Crack](https://github.com/H4ckd4ddy/flipperzero-sentry-safe-plugin) - Flipper zero exploiting vulnerability to open any Sentry Safe and Master Lock electronic safe without any pin code.  
 [FlipperZero-GPS](https://github.com/ezod/flipperzero-gps) -- Display data from a serial GPS module  
+[Video Game Module (Official)](https://github.com/flipperdevices/video-game-module) -- Official Raspberry Pi RP2040 add-on module; open-source firmware and schematics, also usable as a Pico-like RP2040 board  
+[Video Game Module Docs](https://docs.flipper.net/zero/video-game-module) -- Setup, official/custom firmware flashing, and development reference  
+[Unitemp](https://github.com/quen0n/unitemp-flipperzero) -- Read DHT11/22, DS18B20, BMP280, HTU21 and more temperature/humidity/pressure sensors over GPIO, i2c, or 1-Wire  
+[NRF24: Mousejack & Sniffer](https://github.com/mothball187/flipperzero-nrf24) -- The apps behind the NRF24 driver: sniff NRF24 addresses and run mousejack keystroke-injection attacks  
+[nrf24tool](https://github.com/OuinOuin74/nrf24tool) -- Enhanced NRF24 toolkit (expanded libnrf24) for the Flipper  
+[FZEasyMarauderFlash](https://github.com/SkeletonMan03/FZEasyMarauderFlash) -- One-click flasher for the ESP32 WiFi dev board (Marauder or BlackMagic), no Arduino IDE needed  
 
 
 ## Sub-Ghz, Remotes, IR, Files, Databases & Dumps
