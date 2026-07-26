@@ -134,5 +134,11 @@ Original files I've made — as opposed to the curated outbound links further do
 [Flipper Apps Catalog](https://lab.flipper.net/apps) -- Official catalog of installable Flipper apps (.fap), browsable and installable over the web.  
 
 
+## Support
+
+This is a free, curated collection shared for the Flipper community. If it has saved you some digging, a beer is always appreciated and helps keep it maintained.
+
+<a href="https://buymeacoffee.com/magikh0e"><img src="https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20beer&emoji=%F0%9F%8D%BA&slug=magikh0e&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" alt="Buy me a beer" height="42"></a>
+
 ## License
 Link collection -- all linked projects and resources belong to their respective authors. Original files in this repo (Guides, BadUSB payloads, Remote UIs) are provided as-is for educational use.
