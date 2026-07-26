@@ -13,6 +13,7 @@ My collection of IR, Sub-Ghz, remotes, links and other misc files related to the
 - [Flipper Tools & Apps](#flipper-tools--apps)
 - [External Hardware: Plugins](#external-hardware-plugins)
 - [Sub-Ghz, Remotes, IR, Files, Databases & Dumps](#sub-ghz-remotes-ir-files-databases--dumps)
+- [NFC & RFID](#nfc--rfid)
 - [BadUSB Stuff](#badusb-stuff)
 - [Off-device & Debugging](#off-device--debugging)
 
@@ -39,7 +40,7 @@ Original files I've made — as opposed to the curated outbound links further do
 
 
 ### Custom  
-[Momentum](https://awesome-flipper.com/firmware/momentum/)  -- Based on the Official Firmware, and includes most of the awesome features from Unleashed. It is a direct continuation of the Xtreme firmware, built by the same (and only) developers who made that project special.  
+[Momentum](https://github.com/Next-Flip/Momentum-Firmware)  -- Based on the Official Firmware, and includes most of the awesome features from Unleashed. It is a direct continuation of the Xtreme firmware, built by the same (and only) developers who made that project special.  
 [Rogue Master](https://github.com/RogueMaster/flipperzero-firmware-wPlugins) -- Fork of Unleashed and the main Flipper Devices FW  
 [Unleashed Firmware](https://github.com/DarkFlippers/unleashed-firmware) --  Based on the official firmware and is suitable for those who already know what they need and what the official firmware does not provide. Minimal changes in the interface, the emphasis is on functional and useful changes. 
 
@@ -74,6 +75,7 @@ Original files I've made — as opposed to the curated outbound links further do
 
 
 ## Flipper Tools & Apps
+[all-the-plugins](https://github.com/xMasterX/all-the-plugins) -- Large community app pack: hundreds of extra .fap apps not in the official catalog  
 [Flipper Maker](https://flippermaker.github.io/) -- Generate Flipper Zero Files on the fly  
 [Flipper File Toolbox](https://github.com/evilpete/flipper_toolbox) -- Scripts for generating Flipper data files.  
 [FlipperZero CLI Tools](https://github.com/lomalkin/flipperzero-cli-tools) -- Python scripts to screenshot/stream the flipper zero screen  
@@ -96,6 +98,7 @@ Original files I've made — as opposed to the curated outbound links further do
 [WiFi Scanner](https://github.com/SequoiaSan/FlipperZero-WiFi-Scanner_Module#readme) -- WiFi Scanner Module for FlipperZero based on ESP8266/ESP32 (results with ESP8266 much better than with ESP32)  
 [WiFi Scanner Module Flasher Tool](https://sequoiasan.github.io/FlipperZero-WiFi-Scanner_Module/) -- Sequoia has been kind enough to create a web flasher for the modules, if you want to avoid having to use the Arduino IDE.  
 [ESP32 - Wifi Marauder](https://github.com/UberGuidoZ/Flipper/tree/main/Wifi_DevBoard) -- ESP32 Wi-Fi Pentest Tool  
+[Flipper WiFi Marauder companion app](https://github.com/0xchocolate/flipperzero-wifi-marauder) -- On-Flipper .fap that drives the ESP32 Marauder firmware (WiFi/BLE attacks, wardriving with a GPS module)  
 [ESP8266 - Deauther](https://github.com/SequoiaSan/FlipperZero-Wifi-ESP8266-Deauther-Module#readme) --  WiFi Deauther Module for FlipperZero based on ESP8266. This module is full analog of DSTIKE Deauther.   
 [NRF24 Plugins](https://github.com/DarkFlippers/unleashed-firmware/blob/dev/documentation/NRF24.md) -- An NRF24 driver for the Flipper Zero device. The NRF24 is a popular line of 2.4GHz radio transceivers from Nordic Semiconductors. This library is not currently complete, but functional.  
 [Sentry Safe Crack](https://github.com/H4ckd4ddy/flipperzero-sentry-safe-plugin) - Flipper zero exploiting vulnerability to open any Sentry Safe and Master Lock electronic safe without any pin code.  
@@ -114,6 +117,14 @@ Original files I've made — as opposed to the curated outbound links further do
 [PAGGER](https://meoker.github.io/pagger/) -- A collection of Sub-GHz files generators compatible with the Flipper Zero to handle restaurants/kiosks paging systems.  
 
 
+
+
+## NFC & RFID
+
+[FlipperMfkey](https://github.com/noproto/FlipperMfkey) -- On-device MFKey32: crack MIFARE Classic 1K/4K keys from captured reader nonces; cracked keys land in your user dictionary automatically  
+[FlipperNested](https://github.com/AloneLiberty/FlipperNested) -- Recover MIFARE Classic keys with a Nested attack when you already have at least one key  
+[Extended MIFARE Classic Dictionary](https://github.com/UberGuidoZ/Flipper/tree/main/NFC/mf_classic_dict) -- Greatly expanded mf_classic_dict (Proxmark3 Iceman / RFIDResearchGroup keys); drop it under nfc/assets for bigger dictionary attacks  
+[Multi_Fuzzer](https://github.com/DarkFlippers/Multi_Fuzzer) -- Combined iButton and 125 kHz RFID reader fuzzer  
 
 
 ## BadUSB Stuff
