@@ -51,6 +51,15 @@ Original files I've made — as opposed to the curated outbound links further do
  
  
  
+### Companion / Alternative Devices
+Firmware for separate ESP32 / CC1101 gadgets that pair with or stand in for the Flipper. These do NOT flash onto the Flipper Zero itself.
+
+[Bruce](https://github.com/BruceDevices/firmware) -- Offensive-security firmware for ESP32 devices (M5Stack, Cardputer, etc.): WiFi, BLE, RF, RFID, and IR tooling; reads/writes Flipper-compatible files  
+[Willy Firmware](https://github.com/h-RAT/Willy_Firmware_V2_ESP32_Flipper_Zero_Alternative) -- Flipper-style firmware for an ESP32 T-Display-S3 + CC1101 with touchscreen; uses Flipper-compatible Sub-GHz files  
+[EvilCrowRF Custom Firmware](https://github.com/h-RAT/EvilCrowRF_Custom_Firmware_CC1101_FlipperZero) -- Alternative firmware for the Evil Crow RF (dual CC1101) that reads/writes Flipper .sub files  
+
+
+
 ## Instructions / Documentation / Forums
 [Flipper Zero](https://docs.flipper.net/zero)  -- Official Documentation  
 [Firmware Recovery](https://docs.flipper.net/zero/basics/firmware-update/firmware-recovery) -- Troubleshooting firmware problems  
