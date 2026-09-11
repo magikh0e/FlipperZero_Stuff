@@ -6,6 +6,8 @@
 
 My collection of IR, Sub-Ghz, remotes, links, and other files for the [Flipper Zero](https://flipper.net/), plus my own [Guides](Guides), [BadUSB Payloads](BadUSB), and [Remote UIs](Remotes).
 
+> 📖 **Guide:** a full write-up that walks through everything here lives on my site &mdash; [**Flipper Zero: what it does, firmware & getting started**](https://magikh0e.pl/pubHardwareHacking/flipper-zero.html), with deep dives on [Sub-Ghz](https://magikh0e.pl/pubHardwareHacking/flipper-subghz.html), [BadUSB](https://magikh0e.pl/pubHardwareHacking/flipper-badusb.html), and [adding WiFi with an ESP32](https://magikh0e.pl/pubHardwareHacking/flipper-esp32-wifi.html).
+
 ## Contents
 - [In This Repo (my files)](#in-this-repo-my-files)
 - [Firmware](#firmware)
