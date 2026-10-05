@@ -49,7 +49,7 @@ Original files I've made, as opposed to the curated outbound links further down.
 
 ### Outdated / Unmaintained  
 No longer maintained; Xtreme lives on as Momentum (above). Kept here for reference only.  
-~~[Flipper Xtreme](https://github.com/ClaraCrazy/Flipper-Xtreme) -- The goal of this Firmware is to regularly bring out amazing updates based on what the community wants, with an actual understanding of what is going on. Fixing bugs that are regularly talked about, removing unstable / broken applications (.FAP) and actually using the level system that just sits abandoned everywhere else.~~   
+~~[Flipper Xtreme](https://github.com/Flipper-XFW/Xtreme-Firmware) -- The goal of this Firmware is to regularly bring out amazing updates based on what the community wants, with an actual understanding of what is going on. Fixing bugs that are regularly talked about, removing unstable / broken applications (.FAP) and actually using the level system that just sits abandoned everywhere else.~~   
 ~~[SquachWare](https://github.com/skizzophrenic/SquachWare-CFW) -- Flipper Zero Official fork. Adds Custom Graphics, Community apps and misc files~~  
 
 ### Companion / Alternative Devices
@@ -80,7 +80,7 @@ Firmware for separate ESP32 / CC1101 gadgets that pair with or stand in for the 
 
 ## Plugin / Development
 
-[Official Development Docs](https://docs.flipper.net/development) -- Flipper's official firmware and app development documentation  
+[Official Development Docs](https://docs.flipper.net/zero/development) -- Flipper's official firmware and app development documentation  
 [ufbt](https://github.com/flipperdevices/flipperzero-ufbt) -- Official micro Flipper Build Tool: build, debug, and flash apps with a prebuilt SDK (`pip install ufbt`), plus VS Code config  
 [Flipper Application Catalog (submit apps)](https://github.com/flipperdevices/flipper-application-catalog) -- Repo for submitting your app to the official on-device catalog  
 [Flipper Plugin Tutorial](https://github.com/DroomOne/Flipper-Plugin-Tutorial) -- Hello World!  
