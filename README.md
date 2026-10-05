@@ -67,7 +67,7 @@ Firmware for separate ESP32 / CC1101 gadgets that pair with or stand in for the 
 [Battery Troubleshooting](https://cdn.flipperzero.one/self-repair-guide.pdf) -- Troubleshooting battery problems  
 [Awesome Flipper Zero](https://awesome-flipper.com/) -- Community-curated hub of firmware, apps, guides, and resources  
 [Awesome Flipper Zero (djsime1)](https://github.com/djsime1/awesome-flipperzero) -- A collection of Awesome resources for the Flipper Zero device  
-[How to Upload .bin to ESP32/ESP8266](https://github.com/SequoiaSan/Guide-How-To-Upload-bin-to-ESP8266-ESP32) -- Guide on how to upload precompiled bin files to ESP8266/ESP32  
+[How to Upload .bin to ESP32/ESP8266](https://github.com/SequoiaSan/Guide-How-To-Upload-bin-to-ESP8266-ESP32) -- Guide on how to upload precompiled bin files to ESP8266/ESP32 *(last commit 2022)*  
 [Using FlipperZero's GPIOs to Crack A Sentry Safe](https://github.com/DarkFlippers/unleashed-firmware/blob/dev/documentation/SentrySafe.md) -- Using Flipper zero to exploit a vulnerability to open any Sentry Safe and Master Lock electronic safe without the need for a pin code.  
 [Reset Forgotten PIN](https://gist.github.com/djsime1/18d73b981249859f17aab3e2bfd2b600) -- How to reset your device's PIN code  
 [Flipper Zero Hacking 101](https://flipper.pingywon.com/) -- Guides with screenshots, files, and general help.  
@@ -96,23 +96,23 @@ Firmware for separate ESP32 / CC1101 gadgets that pair with or stand in for the 
 
 ### Sub-GHz & IR tools
 [FlipperZero-bruteforce](https://github.com/tobiabocchi/flipperzero-bruteforce) -- Generate .sub files to brute force Sub-GHz OOK.  
-[T119 Brute Forcer](https://github.com/xb8/t119bruteforcer) -- Triggers Retekess T119 restaurant pagers  
+[T119 Brute Forcer](https://github.com/xb8/t119bruteforcer) -- Triggers Retekess T119 restaurant pagers *(last commit 2022)*  
 [OOK to .sub](https://gist.github.com/jinschoi/f39dbd82e4e3d99d32ab6a9b8dfc2f55) -- Python script to generate Flipper RAW .sub files from OOK bitstreams.  
 [SerialHex2FlipperZeroInfrared](https://github.com/maehw/SerialHex2FlipperZeroInfrared) -- Convert IR serial messages into FlipperZero compatible IR files  
-[csv2ir](https://github.com/Spexivus/csv2ir) -- Convert IRDB CSVs into Flipper .ir format  
+[csv2ir](https://github.com/Spexivus/csv2ir) -- Convert IRDB CSVs into Flipper .ir format *(last commit 2022)*  
 
 ### File & data tools
 [Flipper Maker](https://flippermaker.github.io/) -- Generate Flipper Zero Files on the fly  
 [Flipper File Toolbox](https://github.com/evilpete/flipper_toolbox) -- Scripts for generating Flipper data files.  
 [dolphin_state.py](https://github.com/DroomOne/FlipperScripts) -- Reads/Writes the DolphinStoreData struct from dolphin.state files.  
-[MusicXML to Flipper Music Format](https://github.com/white-gecko/musicxml2fmf) -- This script reads a (not compressed) [MusicXML](https://en.wikipedia.org/wiki/MusicXML) file and transforms it to the Flipper Music Format  
+[MusicXML to Flipper Music Format](https://github.com/white-gecko/musicxml2fmf) -- This script reads a (not compressed) [MusicXML](https://en.wikipedia.org/wiki/MusicXML) file and transforms it to the Flipper Music Format *(last commit 2023)*  
 
 
 ## Sub-Ghz, Remotes, IR, Files, Databases & Dumps
 
 [UberGuidoZ Playground - Large collection of files - Github](https://github.com/UberGuidoZ/Flipper) -- Large collection of files, documentation, and dumps of all kinds.  
-[FlipperZero-TouchTunes](https://github.com/jimilinuxguy/flipperzero-touchtunes) -- TouchTunes jukebox remote dump  
-[Universal Intercom Keys](https://github.com/glutesha/Flipper-Starnew) -- Sub-GHz key dumps for common building intercom systems  
+[FlipperZero-TouchTunes](https://github.com/jimilinuxguy/flipperzero-touchtunes) -- TouchTunes jukebox remote dump *(last commit 2022)*  
+[Universal Intercom Keys](https://github.com/glutesha/Flipper-Starnew) -- Sub-GHz key dumps for common building intercom systems *(last commit 2023)*  
 [FlipperZero-Goodies](https://github.com/wetox-team/flipperzero-goodies) -- Intercom key dumps and helper scripts  
 [Flipper-IRDB](https://github.com/Lucaslhm/Flipper-IRDB) -- Large community IR remote database (TVs, ACs, audio, projectors, and more)  
 [XBox IR Controller](https://github.com/gebeto/flipper-xbox-controller) -- Control XBox One via IR  
@@ -122,7 +122,7 @@ Firmware for separate ESP32 / CC1101 gadgets that pair with or stand in for the 
 ## NFC & RFID
 
 [FlipperMfkey](https://github.com/noproto/FlipperMfkey) -- On-device MFKey32: crack MIFARE Classic 1K/4K keys from captured reader nonces; cracked keys land in your user dictionary automatically  
-[FlipperNested](https://github.com/AloneLiberty/FlipperNested) -- Recover MIFARE Classic keys with a Nested attack when you already have at least one key  
+[FlipperNested](https://github.com/AloneLiberty/FlipperNested) -- Recover MIFARE Classic keys with a Nested attack when you already have at least one key *(last commit 2023)*  
 [Extended MIFARE Classic Dictionary](https://github.com/UberGuidoZ/Flipper/tree/main/NFC/mf_classic_dict) -- Greatly expanded mf_classic_dict (Proxmark3 Iceman / RFIDResearchGroup keys); drop it under nfc/assets for bigger dictionary attacks  
 [Multi_Fuzzer](https://github.com/DarkFlippers/Multi_Fuzzer) -- Combined iButton and 125 kHz RFID reader fuzzer  
 
@@ -131,13 +131,13 @@ Firmware for separate ESP32 / CC1101 gadgets that pair with or stand in for the 
 
 [I-Am-Jakoby Flipper BadUSB](https://github.com/I-Am-Jakoby/Flipper-Zero-BadUSB) -- Popular, nearly plug-and-play payload collection: WiFi/IP grabbers, recon, browser data, keylogger, and more  
 [Official Hak5 Ducky Payloads](https://github.com/hak5/usbrubberducky-payloads) -- Hak5's official USB Rubber Ducky payload library; DuckyScript runs on the Flipper as-is  
-[dsymbol ducky-payloads](https://github.com/dsymbol/ducky-payloads) -- Cross-platform payloads for Rubber Ducky, Flipper Zero BadUSB, and Pico-Ducky  
-[BadBT](https://github.com/AGO061/BadBT) -- Run BadUSB (DuckyScript) payloads over Bluetooth by emulating a BT keyboard (needs custom firmware)  
+[dsymbol ducky-payloads](https://github.com/dsymbol/ducky-payloads) -- Cross-platform payloads for Rubber Ducky, Flipper Zero BadUSB, and Pico-Ducky *(archived)*  
+[BadBT](https://github.com/AGO061/BadBT) -- Run BadUSB (DuckyScript) payloads over Bluetooth by emulating a BT keyboard (needs custom firmware) *(last commit 2022)*  
 [Hak5 Payload Studio](https://payloadstudio.hak5.org) -- Browser IDE for writing and validating DuckyScript payloads  
 [Official Bad USB Docs](https://docs.flipper.net/zero/bad-usb) -- Flipper's Bad USB documentation and DuckyScript reference  
-[Adding new keyboard layouts](https://github.com/dummy-decoy/flipperzero_badusb_kl) -- Keyboard layout file generator  
+[Adding new keyboard layouts](https://github.com/dummy-decoy/flipperzero_badusb_kl) -- Keyboard layout file generator *(last commit 2023)*  
 [FalsePhilosophers Flipper BadUSB](https://github.com/FalsePhilosopher/badusb) -- Flipper zero community ducky payload repo.  
-[Generic BadUSB Payloads](https://github.com/nocomp/Flipper_Zero_Badusb_hack5_payloads) -- Hak5 Ducky script payloads  
+[Generic BadUSB Payloads](https://github.com/nocomp/Flipper_Zero_Badusb_hack5_payloads) -- Hak5 Ducky script payloads *(last commit 2023)*  
 [USB HID Autofire](https://github.com/pbek/usb_hid_autofire) -- Send left clicks as a USB HID Device  
 [FlipperZero-USB-Keyboard](https://github.com/huuck/FlipperZeroUSBKeyboard) -- A refactor of the BT remote keyboard to work over USB.  
 [BadUSB Keyboard Converter](https://helppox.com/badusbconvert.html) -- Payload converter for non-US keyboard layouts  
@@ -150,11 +150,11 @@ Firmware for separate ESP32 / CC1101 gadgets that pair with or stand in for the 
 [ESP32 - Wifi Marauder](https://github.com/UberGuidoZ/Flipper/tree/main/Wifi_DevBoard) -- ESP32 Wi-Fi Pentest Tool  
 [Flipper WiFi Marauder companion app](https://github.com/0xchocolate/flipperzero-wifi-marauder) -- On-Flipper .fap that drives the ESP32 Marauder firmware (WiFi/BLE attacks, wardriving with a GPS module)  
 [FZEasyMarauderFlash](https://github.com/SkeletonMan03/FZEasyMarauderFlash) -- One-click flasher for the ESP32 WiFi dev board (Marauder or BlackMagic), no Arduino IDE needed  
-[WiFi Scanner](https://github.com/SequoiaSan/FlipperZero-WiFi-Scanner_Module#readme) -- WiFi Scanner Module for FlipperZero based on ESP8266/ESP32 (results with ESP8266 much better than with ESP32)  
+[WiFi Scanner](https://github.com/SequoiaSan/FlipperZero-WiFi-Scanner_Module#readme) -- WiFi Scanner Module for FlipperZero based on ESP8266/ESP32 (results with ESP8266 much better than with ESP32) *(last commit 2022)*  
 [WiFi Scanner Module Flasher Tool](https://sequoiasan.github.io/FlipperZero-WiFi-Scanner_Module/) -- Sequoia has been kind enough to create a web flasher for the modules, if you want to avoid having to use the Arduino IDE.  
-[ESP8266 - Deauther](https://github.com/SequoiaSan/FlipperZero-Wifi-ESP8266-Deauther-Module#readme) -- WiFi Deauther Module for FlipperZero based on ESP8266. This module is full analog of DSTIKE Deauther.  
+[ESP8266 - Deauther](https://github.com/SequoiaSan/FlipperZero-Wifi-ESP8266-Deauther-Module#readme) -- WiFi Deauther Module for FlipperZero based on ESP8266. This module is full analog of DSTIKE Deauther. *(last commit 2022)*  
 [NRF24 Plugins](https://github.com/DarkFlippers/unleashed-firmware/blob/dev/documentation/NRF24.md) -- An NRF24 driver for the Flipper Zero device. The NRF24 is a popular line of 2.4GHz radio transceivers from Nordic Semiconductors. This library is not currently complete, but functional.  
-[NRF24: Mousejack & Sniffer](https://github.com/mothball187/flipperzero-nrf24) -- The apps behind the NRF24 driver: sniff NRF24 addresses and run mousejack keystroke-injection attacks  
+[NRF24: Mousejack & Sniffer](https://github.com/mothball187/flipperzero-nrf24) -- The apps behind the NRF24 driver: sniff NRF24 addresses and run mousejack keystroke-injection attacks *(last commit 2022)*  
 [nrf24tool](https://github.com/OuinOuin74/nrf24tool) -- Enhanced NRF24 toolkit (expanded libnrf24) for the Flipper  
 [i2c tools](https://github.com/xMasterX/all-the-plugins/blob/dev/base_pack/flipper_i2ctools/README.md) -- Guide on using FlipperZero's i2c tools  
 [Unitemp](https://github.com/quen0n/unitemp-flipperzero) -- Read DHT11/22, DS18B20, BMP280, HTU21 and more temperature/humidity/pressure sensors over GPIO, i2c, or 1-Wire  
