@@ -1,0 +1,42 @@
+name: Broken or outdated link
+description: Report a link in the README that is dead, moved, archived, or long abandoned.
+title: "[link] "
+labels: ["broken-link"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping keep the collection accurate. This repo is a curated
+        link list, so rot is the main thing that breaks it.
+  - type: input
+    id: link
+    attributes:
+      label: Which link?
+      description: The name as it appears in the README, or the URL.
+      placeholder: 'e.g. "WiFi Scanner" — github.com/SequoiaSan/FlipperZero-WiFi-Scanner_Module'
+    validations:
+      required: true
+  - type: dropdown
+    id: problem
+    attributes:
+      label: What's wrong with it?
+      options:
+        - Dead / 404 (repo or page is gone)
+        - Moved / renamed (redirects somewhere else)
+        - Archived (read-only, no longer maintained)
+        - Abandoned / stale (no updates in years)
+        - Wrong or misleading description
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: replacement
+    attributes:
+      label: New URL (if it moved or has a successor)
+      description: Link the maintained home, if there is one.
+      placeholder: https://github.com/...
+  - type: textarea
+    id: details
+    attributes:
+      label: Anything else?
+      description: Optional — context, when you noticed, etc.

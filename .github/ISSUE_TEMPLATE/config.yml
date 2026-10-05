@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question, help, or something to show off
+    url: https://github.com/magikh0e/FlipperZero_Stuff/discussions
+    about: Setup questions, finds to share, and ideas go in Discussions — not Issues.

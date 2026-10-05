@@ -1,0 +1,50 @@
+name: Suggest a resource
+description: Propose a tool, firmware, app, or resource to add to the collection.
+title: "[add] "
+labels: ["suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Suggest something worth adding. It should be Flipper Zero related,
+        reasonably maintained, and not already in the README.
+  - type: input
+    id: url
+    attributes:
+      label: Link
+      description: The repo or page URL.
+      placeholder: https://github.com/...
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Where does it fit?
+      options:
+        - Firmware
+        - Companion / alternative device
+        - Sub-GHz / IR
+        - NFC / RFID
+        - BadUSB
+        - External hardware / plugin
+        - Tool / app
+        - Docs / guide / forum
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What is it, and why add it?
+      description: A line or two — what it does, and whether it's maintained.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: It isn't already in the README
+          required: true
+        - label: It's Flipper Zero related
+          required: true
