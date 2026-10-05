@@ -53,9 +53,10 @@ No longer maintained; Xtreme lives on as Momentum (above). Kept here for referen
 ~~[SquachWare](https://github.com/skizzophrenic/SquachWare-CFW) -- Flipper Zero Official fork. Adds Custom Graphics, Community apps and misc files~~  
 
 ### Companion / Alternative Devices
-Firmware for separate ESP32 / CC1101 gadgets that pair with or stand in for the Flipper. These do NOT flash onto the Flipper Zero itself.
+Firmware and apps for separate gadgets -- ESP32 / CC1101 boards, or even your phone -- that pair with or stand in for the Flipper. These do NOT flash onto the Flipper Zero itself.
 
 [Pueo](https://github.com/magikh0e/pueo) -- My own ESP32 "cheap yellow display" field tool: WiFi/BLE recon, sub-GHz capture and replay (CC1101, reads Flipper-compatible .sub files), NFC read/clone (PN532), and GPS wardriving, in a printed enclosure. Write-ups at [pueo.magikh0e.pl](https://pueo.magikh0e.pl)  
+[Fieldwatch](https://github.com/OffGridPete/Fieldwatch) -- Passive, receive-only WiFi/BLE observer for Android (no dongle, no backend): names nearby radios against an extensible signature library. A phone stands in for the gadget here  
 [Bruce](https://github.com/BruceDevices/firmware) -- Offensive-security firmware for ESP32 devices (M5Stack, Cardputer, etc.): WiFi, BLE, RF, RFID, and IR tooling; reads/writes Flipper-compatible files  
 [Willy Firmware](https://github.com/h-RAT/Willy_Firmware_V2_ESP32_Flipper_Zero_Alternative) -- Flipper-style firmware for an ESP32 T-Display-S3 + CC1101 with touchscreen; uses Flipper-compatible Sub-GHz files  
 [EvilCrowRF Custom Firmware](https://github.com/h-RAT/EvilCrowRF_Custom_Firmware_CC1101_FlipperZero) -- Alternative firmware for the Evil Crow RF (dual CC1101) that reads/writes Flipper .sub files  
