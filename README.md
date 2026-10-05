@@ -182,6 +182,8 @@ Firmware for separate ESP32 / CC1101 gadgets that pair with or stand in for the 
 
 This is a free, curated collection shared for the Flipper community. If it has saved you some digging, a beer is always appreciated and helps keep it maintained.
 
+Questions, a find to share, or a tool worth adding? Open a [Discussion](https://github.com/magikh0e/FlipperZero_Stuff/discussions): Q&A, Show and tell, and Ideas are all open.
+
 <a href="https://buymeacoffee.com/magikh0e"><img src="https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20beer&emoji=%F0%9F%8D%BA&slug=magikh0e&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" alt="Buy me a beer" height="42"></a>
 
 ## License
