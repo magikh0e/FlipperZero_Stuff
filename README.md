@@ -97,7 +97,6 @@ Firmware for separate ESP32 / CC1101 gadgets that pair with or stand in for the 
 ### Sub-GHz & IR tools
 [FlipperZero-bruteforce](https://github.com/tobiabocchi/flipperzero-bruteforce) -- Generate .sub files to brute force Sub-GHz OOK.  
 [T119 Brute Forcer](https://github.com/xb8/t119bruteforcer) -- Triggers Retekess T119 restaurant pagers  
-[Spectrum Analyzer](https://github.com/jolcese/flipperzero-firmware/tree/spectrum/applications/spectrum_analyzer) -- Sub-Ghz spectrum analyzer  
 [OOK to .sub](https://gist.github.com/jinschoi/f39dbd82e4e3d99d32ab6a9b8dfc2f55) -- Python script to generate Flipper RAW .sub files from OOK bitstreams.  
 [SerialHex2FlipperZeroInfrared](https://github.com/maehw/SerialHex2FlipperZeroInfrared) -- Convert IR serial messages into FlipperZero compatible IR files  
 [csv2ir](https://github.com/Spexivus/csv2ir) -- Convert IRDB CSVs into Flipper .ir format  
@@ -140,7 +139,6 @@ Firmware for separate ESP32 / CC1101 gadgets that pair with or stand in for the 
 [FalsePhilosophers Flipper BadUSB](https://github.com/FalsePhilosopher/badusb) -- Flipper zero community ducky payload repo.  
 [Generic BadUSB Payloads](https://github.com/nocomp/Flipper_Zero_Badusb_hack5_payloads) -- Hak5 Ducky script payloads  
 [USB HID Autofire](https://github.com/pbek/usb_hid_autofire) -- Send left clicks as a USB HID Device  
-[Mouse Jiggler](https://github.com/MuddledBox/flipperzero-firmware/tree/Mouse_Jiggler/applications/mouse_jiggler) -- Keeps a computer awake by nudging the mouse over USB HID  
 [FlipperZero-USB-Keyboard](https://github.com/huuck/FlipperZeroUSBKeyboard) -- A refactor of the BT remote keyboard to work over USB.  
 [BadUSB Keyboard Converter](https://helppox.com/badusbconvert.html) -- Payload converter for non-US keyboard layouts  
 
