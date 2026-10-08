@@ -1,8 +1,13 @@
+<p align="center">
+  <img src="assets/logo-512.png" width="220" height="220"
+       alt="A badge in a metallic Flipper Zero frame: a neon-green tiki mask
+            on the screen with game, IR and radio glyphs and a pixel dolphin,
+            ringed by terminal script listings, titled Flipper Zero Stuff.">
+</p>
+
 # FlipperZero_Stuff repo
 
 [![GitHub stars](https://img.shields.io/github/stars/magikh0e/FlipperZero_Stuff?style=flat-square&color=FF8200)](https://github.com/magikh0e/FlipperZero_Stuff/stargazers) ![GitHub last commit](https://img.shields.io/github/last-commit/magikh0e/FlipperZero_Stuff?style=flat-square) ![Flipper Zero](https://img.shields.io/badge/for-Flipper%20Zero-FF8200?style=flat-square)
-
-![A FlipperZero Dolphin image](https://thumb.tildacdn.com/tild3139-3163-4538-b437-643239623131/-/resize/690x/-/format/webp/fpr_web_1.jpg)
 
 My collection of IR, Sub-Ghz, remotes, links, and other files for the [Flipper Zero](https://flipper.net/), plus my own [Guides](Guides), [BadUSB Payloads](BadUSB), and [Remote UIs](Remotes).
 
