@@ -1,8 +1,8 @@
 <p align="center">
   <img src="assets/logo-512.png" width="220" height="220"
-       alt="A badge in a metallic Flipper Zero frame: a neon-green tiki mask
-            on the screen with game, IR and radio glyphs and a pixel dolphin,
-            ringed by terminal script listings, titled Flipper Zero Stuff.">
+       alt="A badge: a pixel-art tiki mask on a handheld's glowing orange
+            screen, ringed by sub-GHz, infrared, NFC, RFID, key fob and USB
+            icons, in a riveted metal frame titled Flipper Zero Stuff.">
 </p>
 
 # FlipperZero_Stuff repo
