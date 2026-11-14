@@ -2,8 +2,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Made a capture, a payload, a GPIO board, an app? Show it off. Photos
-        and screenshots are welcome, just drag them into the box below.
+        Made a capture, a payload, a GPIO board, an app? Show it off. Photos and screenshots are welcome, just drag them into the box below.
   - type: dropdown
     id: area
     attributes:

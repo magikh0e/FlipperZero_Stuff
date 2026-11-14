@@ -2,13 +2,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        Ideas for the collection itself: a section that's missing, a guide
-        you'd like to see, a better way to organise things.
+        Ideas for the collection itself: a section that's missing, a guide you'd like to see, a better way to organise things.
 
-        Got one specific tool, firmware, or app that belongs in the list? The
-        [Suggest a resource](https://github.com/magikh0e/FlipperZero_Stuff/issues/new?template=suggest-resource.yml)
-        form is quicker for me to act on. Dead links go in
-        [Broken or outdated link](https://github.com/magikh0e/FlipperZero_Stuff/issues/new?template=broken-link.yml).
+        Got one specific tool, firmware, or app that belongs in the list? The [Suggest a resource](https://github.com/magikh0e/FlipperZero_Stuff/issues/new?template=suggest-resource.yml) form is quicker for me to act on. Dead links go in [Broken or outdated link](https://github.com/magikh0e/FlipperZero_Stuff/issues/new?template=broken-link.yml).
   - type: textarea
     id: idea
     attributes:

@@ -6,8 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for helping keep the collection accurate. This repo is a curated
-        link list, so rot is the main thing that breaks it.
+        Thanks for helping keep the collection accurate. This repo is a curated link list, so rot is the main thing that breaks it.
   - type: input
     id: link
     attributes:

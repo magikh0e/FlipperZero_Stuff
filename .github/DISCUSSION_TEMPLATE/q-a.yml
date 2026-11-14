@@ -2,12 +2,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        Ask away. Saying which firmware you're on and what you've already tried
-        gets you an answer a lot faster.
+        Ask away. Saying which firmware you're on and what you've already tried gets you an answer a lot faster.
 
-        Quick check first: search the existing discussions, and skim the
-        [README](https://github.com/magikh0e/FlipperZero_Stuff#contents). Most
-        "where do I get X" questions are answered there.
+        Quick check first: search the existing discussions, and skim the [README](https://github.com/magikh0e/FlipperZero_Stuff#contents). Most "where do I get X" questions are answered there.
   - type: dropdown
     id: firmware
     attributes:

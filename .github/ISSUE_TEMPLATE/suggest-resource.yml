@@ -6,8 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Suggest something worth adding. It should be Flipper Zero related,
-        reasonably maintained, and not already in the README.
+        Suggest something worth adding. It should be Flipper Zero related, reasonably maintained, and not already in the README.
   - type: input
     id: url
     attributes:
