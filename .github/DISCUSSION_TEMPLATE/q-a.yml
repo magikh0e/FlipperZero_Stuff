@@ -1,0 +1,66 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ask away. Saying which firmware you're on and what you've already tried
+        gets you an answer a lot faster.
+
+        Quick check first: search the existing discussions, and skim the
+        [README](https://github.com/magikh0e/FlipperZero_Stuff#contents). Most
+        "where do I get X" questions are answered there.
+  - type: dropdown
+    id: firmware
+    attributes:
+      label: Firmware
+      options:
+        - Official (Flipper Devices)
+        - Momentum
+        - Unleashed
+        - RogueMaster
+        - Xtreme (no longer maintained)
+        - Other / not sure
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Firmware version
+      description: As shown in qFlipper or the Flipper mobile app.
+      placeholder: e.g. 1.3.4, mntm-009, unlshd-080
+  - type: dropdown
+    id: area
+    attributes:
+      label: What's it about?
+      options:
+        - Sub-GHz
+        - Infrared
+        - NFC
+        - RFID (125 kHz)
+        - BadUSB
+        - GPIO / external hardware
+        - Apps (.fap)
+        - Installing or updating firmware
+        - Something in this repo (guides, payloads, remotes)
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: What are you trying to do?
+    validations:
+      required: true
+  - type: textarea
+    id: tried
+    attributes:
+      label: What have you tried, and what happened?
+      description: Error messages, screenshots, and the file or payload you used all help.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before posting
+      options:
+        - label: The device or target is mine, or I have permission to test it
+          required: true
+        - label: I searched the existing discussions
+          required: true

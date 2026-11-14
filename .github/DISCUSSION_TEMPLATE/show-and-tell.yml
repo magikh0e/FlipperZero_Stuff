@@ -1,0 +1,43 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Made a capture, a payload, a GPIO board, an app? Show it off. Photos
+        and screenshots are welcome, just drag them into the box below.
+  - type: dropdown
+    id: area
+    attributes:
+      label: What kind of thing is it?
+      options:
+        - Sub-GHz
+        - Infrared
+        - NFC / RFID
+        - BadUSB
+        - GPIO / external hardware
+        - App (.fap)
+        - Case, mod, or accessory
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link
+      description: Optional. A repo, a gist, or a write-up.
+      placeholder: https://github.com/...
+  - type: textarea
+    id: what
+    attributes:
+      label: What is it?
+      description: What it does, how you made it, and anything you'd do differently.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before posting
+      options:
+        - label: Made and tested on gear I own, or have permission to test
+          required: true
+        - label: No credentials, card dumps, or captures of anyone else's stuff
+          required: true
