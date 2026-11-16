@@ -13,6 +13,17 @@ My collection of IR, Sub-Ghz, remotes, links, and other files for the [Flipper Z
 
 > 📖 **Guide:** a full write-up that walks through everything here lives on my site &mdash; [**Flipper Zero: what it does, firmware & getting started**](https://magikh0e.pl/pubHardwareHacking/flipper-zero.html), with deep dives on [Sub-Ghz](https://magikh0e.pl/pubHardwareHacking/flipper-subghz.html), [BadUSB](https://magikh0e.pl/pubHardwareHacking/flipper-badusb.html), and [adding WiFi with an ESP32](https://magikh0e.pl/pubHardwareHacking/flipper-esp32-wifi.html).
 
+<p align="center">
+  <img src="assets/flipper-zero-pair.webp" width="760"
+       alt="My two Flipper Zeros side by side on a purple and green desk mat:
+            a white one with some grime on the shell, and a transparent one
+            with its circuit board and a lanyard visible through the clear
+            case. Both have an orange d-pad and FLIPPER in orange along the
+            bottom.">
+  <br>
+  <sub>My two: the standard white one, and the transparent one with its board on display. Both get carried around, and it shows.</sub>
+</p>
+
 ## Contents
 - [In This Repo (my files)](#in-this-repo-my-files)
 - [Firmware](#firmware)
