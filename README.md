@@ -24,6 +24,21 @@ My collection of IR, Sub-Ghz, remotes, links, and other files for the [Flipper Z
   <sub>My two: the standard white one, and the transparent one with its board on display. Both get carried around, and it shows.</sub>
 </p>
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/diagram-frequency-map-dark.svg">
+    <img src="assets/diagram-frequency-map-light.svg" width="760"
+         alt="Every Flipper Zero radio on one log-scale frequency axis from
+              100 kHz to 3 GHz: 125 kHz RFID, 13.56 MHz NFC, the CC1101
+              Sub-GHz radio, and Bluetooth LE at 2.4 GHz with no WiFi radio.
+              A zoomed view shows the three Sub-GHz bands, 300-348, 387-464
+              and 779-928 MHz, with gaps between them, and the common remote
+              frequencies 315, 433.92, 868 and 915 MHz inside the bands.">
+  </picture>
+  <br>
+  <sub>Where each radio sits. 125 kHz prox and 13.56 MHz NFC are a hundred times apart, so a reader for one never sees the other, and the Sub-GHz radio covers three bands, not one.</sub>
+</p>
+
 ## Contents
 - [In This Repo (my files)](#in-this-repo-my-files)
 - [Firmware](#firmware)
@@ -126,6 +141,21 @@ Firmware and apps for separate gadgets -- ESP32 / CC1101 boards, or even your ph
 
 
 ## Sub-Ghz, Remotes, IR, Files, Databases & Dumps
+
+Captured Sub-GHz files only replay on fixed-code gear. Rolling-code remotes (cars, modern garage openers) shrug off a replay, and this is why:
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/diagram-rolling-code-dark.svg">
+    <img src="assets/diagram-rolling-code-light.svg" width="760"
+         alt="Two rows of three steps. Fixed code: the remote sends A7 3F 19
+              and the receiver opens, the Flipper saves the same code, and
+              replaying it opens the receiver again. Rolling code: the remote
+              sends 5C 9E 02 carrying count 41, the receiver opens and from
+              then on wants count 42 or later, so when the Flipper replays
+              the saved count 41 the receiver ignores it.">
+  </picture>
+</p>
 
 [UberGuidoZ Playground - Large collection of files - Github](https://github.com/UberGuidoZ/Flipper) -- Large collection of files, documentation, and dumps of all kinds.  
 [FlipperZero-TouchTunes](https://github.com/jimilinuxguy/flipperzero-touchtunes) -- TouchTunes jukebox remote dump *(last commit 2022)*  

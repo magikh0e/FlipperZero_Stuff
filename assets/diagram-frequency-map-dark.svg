@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 882 300" role="img" aria-labelledby="fq-t fq-d" font-family="JetBrains Mono, Consolas, monospace">
+<title id="fq-t">The Flipper Zero radios on one frequency axis</title>
+<desc id="fq-d">A logarithmic axis from 100 kHz to 3 GHz. 125 kHz RFID sits at the far left, 13.56 MHz NFC near the middle, the CC1101 Sub-GHz radio between 300 and 928 MHz, and Bluetooth LE at 2.4 GHz, where WiFi would also be, but there is no WiFi radio. A zoomed, linear view of the Sub-GHz range shows three bands, 300 to 348, 387 to 464 and 779 to 928 MHz, with gaps between them, and the common remote frequencies 315, 433.92, 868 and 915 MHz all inside the bands. Infrared, iButton, USB and GPIO are not radios, so they are not on the axis.</desc>
+<rect x="0.5" y="0.5" width="881" height="299" rx="8" fill="#0e0e0e" stroke="#2a2a2a"/>
+<g transform="translate(6,0)">
+<text x="40" y="20" fill="#8a8a8a" font-size="13">Every radio inside, on one frequency axis (log scale)</text>
+<line x1="40" y1="120" x2="830" y2="120" stroke="#3a3a3a"/>
+<line x1="40" y1="120" x2="40" y2="126" stroke="#3a3a3a"/>
+<text x="40" y="140" fill="#8a8a8a" font-size="11" text-anchor="middle">100 kHz</text>
+<line x1="216.5" y1="120" x2="216.5" y2="126" stroke="#3a3a3a"/>
+<text x="216.5" y="140" fill="#8a8a8a" font-size="11" text-anchor="middle">1 MHz</text>
+<line x1="392.9" y1="120" x2="392.9" y2="126" stroke="#3a3a3a"/>
+<text x="392.9" y="140" fill="#8a8a8a" font-size="11" text-anchor="middle">10 MHz</text>
+<line x1="569.4" y1="120" x2="569.4" y2="126" stroke="#3a3a3a"/>
+<text x="569.4" y="140" fill="#8a8a8a" font-size="11" text-anchor="middle">100 MHz</text>
+<line x1="745.8" y1="120" x2="745.8" y2="126" stroke="#3a3a3a"/>
+<text x="745.8" y="140" fill="#8a8a8a" font-size="11" text-anchor="middle">1 GHz</text>
+<line x1="830" y1="120" x2="830" y2="126" stroke="#3a3a3a"/>
+<text x="830" y="140" fill="#8a8a8a" font-size="11" text-anchor="middle">3 GHz</text>
+<rect x="54.1" y="96" width="6" height="24" rx="1" fill="#6aa8e8" fill-opacity="0.5" stroke="#6aa8e8"/>
+<line x1="57.1" y1="78" x2="57.1" y2="96" stroke="#8a8a8a"/>
+<text x="52.1" y="56" fill="#b0b0b0" font-size="12">125 kHz RFID</text>
+<text x="52.1" y="72" fill="#8a8a8a" font-size="11">prox cards, fobs</text>
+<rect x="413.2" y="96" width="6" height="24" rx="1" fill="#6aa8e8" fill-opacity="0.5" stroke="#6aa8e8"/>
+<line x1="416.2" y1="78" x2="416.2" y2="96" stroke="#8a8a8a"/>
+<text x="416.2" y="56" fill="#b0b0b0" font-size="12" text-anchor="middle">13.56 MHz NFC</text>
+<text x="416.2" y="72" fill="#8a8a8a" font-size="11" text-anchor="middle">Mifare, NTAG</text>
+<rect x="653.5" y="96" width="11.4" height="24" rx="1" fill="#8FB65F" fill-opacity="0.5" stroke="#8FB65F"/>
+<rect x="673.1" y="96" width="13.9" height="24" rx="1" fill="#8FB65F" fill-opacity="0.5" stroke="#8FB65F"/>
+<rect x="726.7" y="96" width="13.4" height="24" rx="1" fill="#8FB65F" fill-opacity="0.5" stroke="#8FB65F"/>
+<line x1="696.8" y1="62" x2="696.8" y2="96" stroke="#8a8a8a"/>
+<text x="696.8" y="40" fill="#b0b0b0" font-size="12" text-anchor="middle">Sub-GHz (CC1101)</text>
+<text x="696.8" y="56" fill="#8a8a8a" font-size="11" text-anchor="middle">remotes, sensors</text>
+<rect x="811.2" y="96" width="6" height="24" rx="1" fill="#e08a3c" fill-opacity="0.5" stroke="#e08a3c"/>
+<line x1="814.2" y1="78" x2="814.2" y2="96" stroke="#8a8a8a"/>
+<text x="866" y="56" fill="#b0b0b0" font-size="12" text-anchor="end">Bluetooth LE</text>
+<text x="866" y="72" fill="#f85149" font-size="11" text-anchor="end">(no WiFi radio)</text>
+<line x1="653.5" y1="120" x2="40" y2="178" stroke="#3a3a3a" stroke-dasharray="3 3"/>
+<line x1="740.1" y1="120" x2="830" y2="178" stroke="#3a3a3a" stroke-dasharray="3 3"/>
+<rect x="40" y="178" width="790" height="88" rx="6" fill="none" stroke="#3a3a3a"/>
+<text x="52" y="196" fill="#8a8a8a" font-size="11">Sub-GHz, zoomed in (linear)</text>
+<rect x="119.3" y="218" width="47.4" height="22" rx="2" fill="#8FB65F" fill-opacity="0.2" stroke="#8FB65F"/>
+<text x="143" y="256" fill="#8a8a8a" font-size="11" text-anchor="middle">300&#8211;348</text>
+<rect x="205.2" y="218" width="75.9" height="22" rx="2" fill="#8FB65F" fill-opacity="0.2" stroke="#8FB65F"/>
+<text x="243.15" y="256" fill="#8a8a8a" font-size="11" text-anchor="middle">387&#8211;464</text>
+<rect x="591.9" y="218" width="147.1" height="22" rx="2" fill="#8FB65F" fill-opacity="0.2" stroke="#8FB65F"/>
+<text x="665.45" y="256" fill="#8a8a8a" font-size="11" text-anchor="middle">779&#8211;928 MHz</text>
+<text x="185.95" y="233" fill="#8a8a8a" font-size="10" text-anchor="middle">gap</text>
+<text x="436.5" y="233" fill="#8a8a8a" font-size="11" text-anchor="middle">no coverage</text>
+<line x1="134.1" y1="214" x2="134.1" y2="240" stroke="#b0b0b0"/>
+<text x="134.1" y="210" fill="#b0b0b0" font-size="11" text-anchor="middle">315</text>
+<line x1="251.5" y1="214" x2="251.5" y2="240" stroke="#b0b0b0"/>
+<text x="251.5" y="210" fill="#b0b0b0" font-size="11" text-anchor="middle">433.92</text>
+<line x1="680.1" y1="214" x2="680.1" y2="240" stroke="#b0b0b0"/>
+<text x="680.1" y="210" fill="#b0b0b0" font-size="11" text-anchor="middle">868</text>
+<line x1="726.1" y1="214" x2="726.1" y2="240" stroke="#b0b0b0"/>
+<text x="726.1" y="210" fill="#b0b0b0" font-size="11" text-anchor="middle">915</text>
+<text x="40" y="292" fill="#8a8a8a" font-size="11">Not radios, so not on the axis: infrared (light), iButton (contact), USB and GPIO (wired).</text>
+</g>
+</svg>
