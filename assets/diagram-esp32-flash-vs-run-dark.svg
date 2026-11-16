@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 882 292" role="img" aria-labelledby="fr-t fr-d" font-family="JetBrains Mono, Consolas, monospace">
+<title id="fr-t">Flashing the ESP32 versus running it from the Flipper</title>
+<desc id="fr-d">Two rows. Flash, once per firmware change: your computer, using the web flasher in the browser or esptool, writes Marauder or Bruce to the ESP32 board over a USB cable; the Flipper Zero is not part of this step. Run, every session: the Flipper Zero, with its screen, buttons and an app sending commands, talks to the ESP32 over UART on the GPIO header, pins 13 and 14 plus 3V3 and ground; the ESP32 runs the firmware you flashed and does the WiFi and Bluetooth LE work, on networks you own or are authorized to test.</desc>
+<rect x="0.5" y="0.5" width="881" height="291" rx="8" fill="#0e0e0e" stroke="#2a2a2a"/>
+<g transform="translate(6,0)">
+<text x="20" y="22" fill="#8a8a8a" font-size="13">Two separate jobs: flash the ESP32 once, then run it from the Flipper</text>
+<text x="14" y="78" fill="#e08a3c" font-size="13">FLASH</text>
+<text x="14" y="98" fill="#8a8a8a" font-size="11">once per</text>
+<text x="14" y="112" fill="#8a8a8a" font-size="11">firmware</text>
+<rect x="120" y="40" width="200" height="84" rx="6" fill="none" stroke="#3a3a3a"/>
+<text x="220" y="70" fill="#b0b0b0" font-size="13" text-anchor="middle">your computer</text>
+<text x="220" y="90" fill="#8a8a8a" font-size="11" text-anchor="middle">web flasher in the</text>
+<text x="220" y="106" fill="#8a8a8a" font-size="11" text-anchor="middle">browser, or esptool</text>
+<rect x="420" y="40" width="200" height="84" rx="6" fill="#8FB65F" fill-opacity="0.10" stroke="#8FB65F"/>
+<text x="520" y="70" fill="#8FB65F" font-size="13" text-anchor="middle">ESP32 board</text>
+<text x="520" y="90" fill="#8a8a8a" font-size="11" text-anchor="middle">Marauder or Bruce</text>
+<text x="520" y="106" fill="#8a8a8a" font-size="11" text-anchor="middle">gets written to it</text>
+<rect x="660" y="40" width="200" height="84" rx="6" fill="none" stroke="#3a3a3a" stroke-dasharray="4 4"/>
+<text x="760" y="70" fill="#8a8a8a" font-size="13" text-anchor="middle">Flipper Zero</text>
+<text x="760" y="90" fill="#8a8a8a" font-size="11" text-anchor="middle">not part of this</text>
+<text x="760" y="106" fill="#8a8a8a" font-size="11" text-anchor="middle">step at all</text>
+<line x1="324" y1="82" x2="410" y2="82" stroke="#8a8a8a"/><polygon points="409,78 416,82 409,86" fill="#8a8a8a"/>
+<text x="370" y="74" fill="#e08a3c" font-size="11" text-anchor="middle">USB cable</text>
+<text x="14" y="206" fill="#5fafaf" font-size="13">RUN</text>
+<text x="14" y="226" fill="#8a8a8a" font-size="11">every</text>
+<text x="14" y="240" fill="#8a8a8a" font-size="11">session</text>
+<rect x="120" y="168" width="200" height="84" rx="6" fill="none" stroke="#3a3a3a"/>
+<text x="220" y="198" fill="#b0b0b0" font-size="13" text-anchor="middle">Flipper Zero</text>
+<text x="220" y="218" fill="#8a8a8a" font-size="11" text-anchor="middle">screen and buttons,</text>
+<text x="220" y="234" fill="#8a8a8a" font-size="11" text-anchor="middle">its app sends commands</text>
+<rect x="420" y="168" width="200" height="84" rx="6" fill="#8FB65F" fill-opacity="0.10" stroke="#8FB65F"/>
+<text x="520" y="198" fill="#8FB65F" font-size="13" text-anchor="middle">ESP32 board</text>
+<text x="520" y="218" fill="#8a8a8a" font-size="11" text-anchor="middle">runs that firmware,</text>
+<text x="520" y="234" fill="#8a8a8a" font-size="11" text-anchor="middle">does the WiFi + BLE</text>
+<rect x="660" y="168" width="200" height="84" rx="6" fill="none" stroke="#3a3a3a" stroke-dasharray="4 4"/>
+<text x="760" y="198" fill="#b0b0b0" font-size="13" text-anchor="middle">WiFi / BLE</text>
+<text x="760" y="218" fill="#8a8a8a" font-size="11" text-anchor="middle">networks you own or</text>
+<text x="760" y="234" fill="#8a8a8a" font-size="11" text-anchor="middle">are authorized to test</text>
+<line x1="330" y1="210" x2="410" y2="210" stroke="#8a8a8a"/><polygon points="331,206 324,210 331,214" fill="#8a8a8a"/><polygon points="409,206 416,210 409,214" fill="#8a8a8a"/>
+<line x1="630" y1="210" x2="650" y2="210" stroke="#8a8a8a"/><polygon points="631,206 624,210 631,214" fill="#8a8a8a"/><polygon points="649,206 656,210 649,214" fill="#8a8a8a"/>
+<text x="370" y="202" fill="#5fafaf" font-size="11" text-anchor="middle">UART on GPIO</text>
+<text x="370" y="228" fill="#8a8a8a" font-size="10" text-anchor="middle">TX 13 / RX 14</text>
+<text x="20" y="282" fill="#8a8a8a" font-size="11">The firmware lives on the ESP32. The Flipper is the screen and keypad in front of it.</text>
+</g>
+</svg>

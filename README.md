@@ -240,6 +240,22 @@ Every step a payload needs, and the habit that breaks it. More in the guide's [D
 
 ## External Hardware: Plugins
 
+The ESP32 boards below need their own firmware before the Flipper can drive them, and flashing and running are two separate jobs. More in the guide on [adding WiFi with an ESP32](https://magikh0e.pl/pubHardwareHacking/flipper-esp32-wifi.html):
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/diagram-esp32-flash-vs-run-dark.svg">
+    <img src="assets/diagram-esp32-flash-vs-run-light.svg" width="760"
+         alt="Two rows. Flash, once per firmware change: your computer, using
+              a web flasher in the browser or esptool, writes Marauder or
+              Bruce to the ESP32 board over a USB cable; the Flipper Zero is
+              not part of this step. Run, every session: the Flipper Zero
+              talks to the ESP32 over UART on the GPIO header, TX on pin 13
+              and RX on pin 14, and the ESP32 runs that firmware and does the
+              WiFi and BLE work on networks you own or are authorized to test.">
+  </picture>
+</p>
+
 [Add-on Modules](https://github.com/UberGuidoZ/Flipper/tree/main/GPIO) -- (ESP32, ESP8266, ESP32-CAM, ESP32-S2 WROVER, NRF24, Raspberry PI UART etc..)  
 [ESP32 Marauder](https://github.com/justcallmekoko/ESP32Marauder/wiki/flipper-zero) -- Portable Wifi / Bluetooth penetration testing -- [Video](https://youtu.be/_YLTpNo5xa0)  
 [ESP32 - Wifi Marauder](https://github.com/UberGuidoZ/Flipper/tree/main/Wifi_DevBoard) -- ESP32 Wi-Fi Pentest Tool  
