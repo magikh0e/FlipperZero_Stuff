@@ -176,6 +176,21 @@ Captured Sub-GHz files only replay on fixed-code gear. Rolling-code remotes (car
 
 ## BadUSB Stuff
 
+A payload is a string of key presses, not letters, so the keyboard layout matters. A script written for US QWERTY garbles on a German or French machine unless the Flipper's layout file matches the target (the converter and layout generator below help with that):
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/diagram-badusb-layouts-dark.svg">
+    <img src="assets/diagram-badusb-layouts-light.svg" width="760"
+         alt="The payload line STRING Get-Date -Format yyyy on three setups.
+              US layout file on a US machine types it correctly. US layout
+              file on a German machine types GetßDate ßFormat zzzz, because
+              the German layout reads the minus key as ß and the Y key as z.
+              German layout file on a German machine presses different keys
+              and types it correctly.">
+  </picture>
+</p>
+
 [Official Hak5 Ducky Payloads](https://github.com/hak5/usbrubberducky-payloads) -- Hak5's official USB Rubber Ducky payload library; DuckyScript runs on the Flipper as-is  
 [Hak5 Payload Studio](https://payloadstudio.hak5.org) -- Browser IDE for writing and validating DuckyScript payloads  
 [Official Bad USB Docs](https://docs.flipper.net/zero/bad-usb) -- Flipper's Bad USB documentation and DuckyScript reference  
@@ -188,6 +203,23 @@ Captured Sub-GHz files only replay on fixed-code gear. Rolling-code remotes (car
 [Generic BadUSB Payloads](https://github.com/nocomp/Flipper_Zero_Badusb_hack5_payloads) -- Hak5 Ducky script payloads *(last commit 2023)*  
 [dsymbol ducky-payloads](https://github.com/dsymbol/ducky-payloads) -- Cross-platform payloads for Rubber Ducky, Flipper Zero BadUSB, and Pico-Ducky *(archived)*  
 [BadBT](https://github.com/AGO061/BadBT) -- Run BadUSB (DuckyScript) payloads over Bluetooth by emulating a BT keyboard (needs custom firmware) *(last commit 2022)*  
+
+### Defending against BadUSB
+Every step a payload needs, and the habit that breaks it. More in the guide's [Defense section](https://magikh0e.pl/pubHardwareHacking/flipper-badusb.html#defense).
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/diagram-badusb-chain-dark.svg">
+    <img src="assets/diagram-badusb-chain-light.svg" width="760"
+         alt="Four steps a BadUSB payload needs: it is plugged in, it says
+              it is a keyboard, the OS trusts it with no prompt, and it types
+              the payload as the logged-in user. Not plugging in stray devices
+              stops step 1, device control that blocks or prompts on a new
+              keyboard stops step 3, and locking the screen plus least
+              privilege stops step 4. Step 2 is what every real keyboard
+              does, so nothing blocks it there.">
+  </picture>
+</p>
 
 
 ## External Hardware: Plugins

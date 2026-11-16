@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 882 262" role="img" aria-labelledby="kl-t kl-d" font-family="JetBrains Mono, Consolas, monospace">
+<title id="kl-t">The same BadUSB payload line on three keyboard-layout setups</title>
+<desc id="kl-d">The payload line is STRING Get-Date -Format yyyy. With the US layout file on the Flipper and a US target, the Flipper presses the minus and Y keys and the target types Get-Date -Format yyyy, correctly. With the US layout file and a German target, the same keys arrive but the German layout reads the minus key as sharp s and the Y key as z, so the target types GetßDate ßFormat zzzz. With the German layout file on the Flipper and a German target, the Flipper presses the keys labelled slash and Z on a US keyboard instead, which a German layout reads as minus and y, so the target types Get-Date -Format yyyy correctly.</desc>
+<rect x="0.5" y="0.5" width="881" height="261" rx="8" fill="#f4f1ea" stroke="#d8d2c6"/>
+<g transform="translate(6,0)">
+<text x="20" y="26" fill="#5b5b5b" font-size="12">The payload line:</text>
+<text x="152" y="26" fill="#2a2a2a" font-size="13">STRING Get-Date -Format yyyy</text>
+<text x="100" y="58" fill="#5b5b5b" font-size="11" text-anchor="middle">Flipper layout file</text>
+<text x="275" y="58" fill="#5b5b5b" font-size="11" text-anchor="middle">keys sent for - and y</text>
+<text x="410" y="58" fill="#5b5b5b" font-size="11" text-anchor="middle">over USB</text>
+<text x="540" y="58" fill="#5b5b5b" font-size="11" text-anchor="middle">target's layout</text>
+<text x="737" y="58" fill="#5b5b5b" font-size="11" text-anchor="middle">what the target types</text>
+<rect x="45" y="72" width="110" height="46" rx="6" fill="none" stroke="#bbbbbb"/>
+<text x="100" y="100" fill="#2a2a2a" font-size="13" text-anchor="middle">US</text>
+<rect x="240" y="80" width="34" height="30" rx="4" fill="none" stroke="#bbbbbb"/>
+<text x="257" y="100" fill="#2a2a2a" font-size="13" text-anchor="middle">-</text>
+<rect x="282" y="80" width="34" height="30" rx="4" fill="none" stroke="#bbbbbb"/>
+<text x="299" y="100" fill="#2a2a2a" font-size="13" text-anchor="middle">Y</text>
+<line x1="330" y1="95" x2="472" y2="95" stroke="#5b5b5b"/><polygon points="471,91 478,95 471,99" fill="#5b5b5b"/>
+<rect x="485" y="72" width="110" height="46" rx="6" fill="none" stroke="#bbbbbb"/>
+<text x="540" y="100" fill="#2a2a2a" font-size="13" text-anchor="middle">US</text>
+<rect x="615" y="72" width="245" height="46" rx="6" fill="#437020" fill-opacity="0.10" stroke="#437020"/>
+<text x="737.5" y="100" fill="#2a2a2a" font-size="13" text-anchor="middle">Get-Date -Format yyyy</text>
+<rect x="45" y="130" width="110" height="46" rx="6" fill="none" stroke="#bbbbbb"/>
+<text x="100" y="158" fill="#2a2a2a" font-size="13" text-anchor="middle">US</text>
+<rect x="240" y="138" width="34" height="30" rx="4" fill="none" stroke="#bbbbbb"/>
+<text x="257" y="158" fill="#2a2a2a" font-size="13" text-anchor="middle">-</text>
+<rect x="282" y="138" width="34" height="30" rx="4" fill="none" stroke="#bbbbbb"/>
+<text x="299" y="158" fill="#2a2a2a" font-size="13" text-anchor="middle">Y</text>
+<line x1="330" y1="153" x2="472" y2="153" stroke="#5b5b5b"/><polygon points="471,149 478,153 471,157" fill="#5b5b5b"/>
+<rect x="485" y="130" width="110" height="46" rx="6" fill="none" stroke="#bbbbbb"/>
+<text x="540" y="158" fill="#2a2a2a" font-size="13" text-anchor="middle">German</text>
+<rect x="615" y="130" width="245" height="46" rx="6" fill="#b00308" fill-opacity="0.10" stroke="#b00308"/>
+<text x="737.5" y="158" fill="#2a2a2a" font-size="13" text-anchor="middle">Get<tspan fill="#9a4c08">ß</tspan>Date <tspan fill="#9a4c08">ß</tspan>Format <tspan fill="#9a4c08">zzzz</tspan></text>
+<rect x="45" y="188" width="110" height="46" rx="6" fill="none" stroke="#bbbbbb"/>
+<text x="100" y="216" fill="#2a2a2a" font-size="13" text-anchor="middle">German</text>
+<rect x="240" y="196" width="34" height="30" rx="4" fill="none" stroke="#9a4c08"/>
+<text x="257" y="216" fill="#2a2a2a" font-size="13" text-anchor="middle">/</text>
+<rect x="282" y="196" width="34" height="30" rx="4" fill="none" stroke="#9a4c08"/>
+<text x="299" y="216" fill="#2a2a2a" font-size="13" text-anchor="middle">Z</text>
+<line x1="330" y1="211" x2="472" y2="211" stroke="#5b5b5b"/><polygon points="471,207 478,211 471,215" fill="#5b5b5b"/>
+<rect x="485" y="188" width="110" height="46" rx="6" fill="none" stroke="#bbbbbb"/>
+<text x="540" y="216" fill="#2a2a2a" font-size="13" text-anchor="middle">German</text>
+<rect x="615" y="188" width="245" height="46" rx="6" fill="#437020" fill-opacity="0.10" stroke="#437020"/>
+<text x="737.5" y="216" fill="#2a2a2a" font-size="13" text-anchor="middle">Get-Date -Format yyyy</text>
+<text x="20" y="252" fill="#5b5b5b" font-size="11">The Flipper only ever sends key positions; the target's layout decides what each key types.</text>
+</g>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 882 240" role="img" aria-labelledby="bu-t bu-d" font-family="JetBrains Mono, Consolas, monospace">
+<title id="bu-t">How a BadUSB payload gets in, and where each defense breaks the chain</title>
+<desc id="bu-d">Four steps left to right: 1, the device is plugged in; 2, it says it is a keyboard, enumerating as a USB HID device; 3, the operating system trusts it with no prompt; 4, it types the payload as the logged-in user at machine speed. Defenses below block steps: not plugging in stray devices stops step 1; device control that blocks or prompts on a new keyboard stops step 3; locking the screen, plus least privilege, stops step 4. Step 2 has no defense, because every real keyboard does the same thing.</desc>
+<rect x="0.5" y="0.5" width="881" height="239" rx="8" fill="#0e0e0e" stroke="#2a2a2a"/>
+<g transform="translate(6,0)">
+<text x="20" y="22" fill="#8a8a8a" font-size="13">How a payload gets in, and where each defense cuts it off</text>
+<rect x="16" y="40" width="190" height="72" rx="6" fill="none" stroke="#3a3a3a"/>
+<text x="111" y="64" font-size="12" text-anchor="middle"><tspan fill="#e08a3c">1</tspan><tspan fill="#b0b0b0">  plugged in</tspan></text>
+<text x="111" y="84" fill="#8a8a8a" font-size="11" text-anchor="middle">a Flipper, or a found</text>
+<text x="111" y="100" fill="#8a8a8a" font-size="11" text-anchor="middle">drive or cable</text>
+<line x1="209" y1="76" x2="219" y2="76" stroke="#8a8a8a"/><polygon points="218,72 225,76 218,80" fill="#8a8a8a"/>
+<rect x="228" y="40" width="190" height="72" rx="6" fill="none" stroke="#3a3a3a"/>
+<text x="323" y="64" font-size="12" text-anchor="middle"><tspan fill="#e08a3c">2</tspan><tspan fill="#b0b0b0">  says it's a keyboard</tspan></text>
+<text x="323" y="84" fill="#8a8a8a" font-size="11" text-anchor="middle">enumerates as a</text>
+<text x="323" y="100" fill="#8a8a8a" font-size="11" text-anchor="middle">USB HID device</text>
+<line x1="421" y1="76" x2="431" y2="76" stroke="#8a8a8a"/><polygon points="430,72 437,76 430,80" fill="#8a8a8a"/>
+<rect x="440" y="40" width="190" height="72" rx="6" fill="none" stroke="#3a3a3a"/>
+<text x="535" y="64" font-size="12" text-anchor="middle"><tspan fill="#e08a3c">3</tspan><tspan fill="#b0b0b0">  OS trusts it</tspan></text>
+<text x="535" y="84" fill="#8a8a8a" font-size="11" text-anchor="middle">no prompt, no driver,</text>
+<text x="535" y="100" fill="#8a8a8a" font-size="11" text-anchor="middle">no questions</text>
+<line x1="633" y1="76" x2="643" y2="76" stroke="#8a8a8a"/><polygon points="642,72 649,76 642,80" fill="#8a8a8a"/>
+<rect x="652" y="40" width="190" height="72" rx="6" fill="none" stroke="#3a3a3a"/>
+<text x="747" y="64" font-size="12" text-anchor="middle"><tspan fill="#e08a3c">4</tspan><tspan fill="#b0b0b0">  types the payload</tspan></text>
+<text x="747" y="84" fill="#8a8a8a" font-size="11" text-anchor="middle">as the logged-in user,</text>
+<text x="747" y="100" fill="#8a8a8a" font-size="11" text-anchor="middle">at machine speed</text>
+<rect x="16" y="150" width="190" height="64" rx="6" fill="#8FB65F" fill-opacity="0.10" stroke="#8FB65F"/>
+<text x="111" y="172" fill="#8FB65F" font-size="12" text-anchor="middle">don't plug in strays</text>
+<text x="111" y="190" fill="#8a8a8a" font-size="11" text-anchor="middle">found drives, free</text>
+<text x="111" y="205" fill="#8a8a8a" font-size="11" text-anchor="middle">cables, gift chargers</text>
+<line x1="111" y1="150" x2="111" y2="119" stroke="#8FB65F" stroke-width="2"/>
+<line x1="97" y1="119" x2="125" y2="119" stroke="#8FB65F" stroke-width="2"/>
+<text x="323" y="176" fill="#8a8a8a" font-size="11" text-anchor="middle">every real keyboard</text>
+<text x="323" y="192" fill="#8a8a8a" font-size="11" text-anchor="middle">does this too</text>
+<rect x="440" y="150" width="190" height="64" rx="6" fill="#8FB65F" fill-opacity="0.10" stroke="#8FB65F"/>
+<text x="535" y="172" fill="#8FB65F" font-size="12" text-anchor="middle">device control</text>
+<text x="535" y="190" fill="#8a8a8a" font-size="11" text-anchor="middle">block or prompt on</text>
+<text x="535" y="205" fill="#8a8a8a" font-size="11" text-anchor="middle">a new keyboard</text>
+<line x1="535" y1="150" x2="535" y2="119" stroke="#8FB65F" stroke-width="2"/>
+<line x1="521" y1="119" x2="549" y2="119" stroke="#8FB65F" stroke-width="2"/>
+<rect x="652" y="150" width="190" height="64" rx="6" fill="#8FB65F" fill-opacity="0.10" stroke="#8FB65F"/>
+<text x="747" y="172" fill="#8FB65F" font-size="12" text-anchor="middle">lock your screen</text>
+<text x="747" y="190" fill="#8a8a8a" font-size="11" text-anchor="middle">nothing to type into</text>
+<text x="747" y="205" fill="#8a8a8a" font-size="11" text-anchor="middle">(+ least privilege)</text>
+<line x1="747" y1="150" x2="747" y2="119" stroke="#8FB65F" stroke-width="2"/>
+<line x1="733" y1="119" x2="761" y2="119" stroke="#8FB65F" stroke-width="2"/>
+</g>
+</svg>
