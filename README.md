@@ -157,6 +157,22 @@ Captured Sub-GHz files only replay on fixed-code gear. Rolling-code remotes (car
   </picture>
 </p>
 
+The `.sub` files in the collections below come in two kinds. A Read file holds a decoded key in a few lines; a Read RAW file holds the raw on/off timings, which works for signals no decoder knows:
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/diagram-subghz-read-vs-raw-dark.svg">
+    <img src="assets/diagram-subghz-read-vs-raw-light.svg" width="760"
+         alt="One press of a Princeton fixed-code remote, eight bits
+              1 0 0 1 0 1 0 1 drawn as on and off pulses, captured two ways.
+              Read decodes the protocol into a small key file: Protocol
+              Princeton, Bit 24, TE 400, Key 00 00 00 00 00 95 D5 D4, where
+              95 is the eight bits shown. Read RAW saves the timings instead:
+              RAW_Data 1200 -400 400 -1200 and so on, thousands of numbers
+              per press.">
+  </picture>
+</p>
+
 [UberGuidoZ Playground - Large collection of files - Github](https://github.com/UberGuidoZ/Flipper) -- Large collection of files, documentation, and dumps of all kinds.  
 [FlipperZero-TouchTunes](https://github.com/jimilinuxguy/flipperzero-touchtunes) -- TouchTunes jukebox remote dump *(last commit 2022)*  
 [Universal Intercom Keys](https://github.com/glutesha/Flipper-Starnew) -- Sub-GHz key dumps for common building intercom systems *(last commit 2023)*  

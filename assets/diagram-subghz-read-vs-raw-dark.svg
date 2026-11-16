@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 882 282" role="img" aria-labelledby="rr-t rr-d" font-family="JetBrains Mono, Consolas, monospace">
+<title id="rr-t">One fixed-code press captured with Read and with Read RAW</title>
+<desc id="rr-d">On the left, the on and off pulses of one press of a Princeton fixed-code remote: eight bits, 1 0 0 1 0 1 0 1, where a 1 is a long on and a short off and a 0 is a short on and a long off, short being 400 microseconds and long 1200. Read decodes the protocol and saves a small key file: Filetype Flipper SubGhz Key File, Protocol Princeton, Bit 24, TE 400, Key 00 00 00 00 00 95 D5 D4, where 95 is the eight bits shown. Read RAW saves the timings instead: Filetype Flipper SubGhz RAW File, Protocol RAW, RAW_Data 1200 -400 400 -1200 and so on, positive for on and negative for off, thousands of numbers per press.</desc>
+<rect x="0.5" y="0.5" width="881" height="281" rx="8" fill="#0e0e0e" stroke="#2a2a2a"/>
+<g transform="translate(6,0)">
+<text x="20" y="22" fill="#8a8a8a" font-size="13">One press of a fixed-code remote, captured two ways</text>
+<text x="24" y="122" fill="#8a8a8a" font-size="11">what the remote sends</text>
+<polyline points="16,170 24,170 24,140 51,140 51,170 60,170 60,140 69,140 69,170 96,170 96,140 105,140 105,170 132,170 132,140 159,140 159,170 168,170 168,140 177,140 177,170 204,170 204,140 231,140 231,170 240,170 240,140 249,140 249,170 276,170 276,140 303,140 303,170 312,170" fill="none" stroke="#8FB65F" stroke-width="2"/>
+<text x="322" y="158" fill="#8a8a8a" font-size="12">...</text>
+<text x="42" y="188" fill="#e08a3c" font-size="12" text-anchor="middle">1</text>
+<text x="78" y="188" fill="#b0b0b0" font-size="12" text-anchor="middle">0</text>
+<text x="114" y="188" fill="#b0b0b0" font-size="12" text-anchor="middle">0</text>
+<text x="150" y="188" fill="#e08a3c" font-size="12" text-anchor="middle">1</text>
+<text x="186" y="188" fill="#b0b0b0" font-size="12" text-anchor="middle">0</text>
+<text x="222" y="188" fill="#e08a3c" font-size="12" text-anchor="middle">1</text>
+<text x="258" y="188" fill="#b0b0b0" font-size="12" text-anchor="middle">0</text>
+<text x="294" y="188" fill="#e08a3c" font-size="12" text-anchor="middle">1</text>
+<text x="24" y="212" fill="#8a8a8a" font-size="11">1 = long on, short off</text>
+<text x="24" y="227" fill="#8a8a8a" font-size="11">0 = short on, long off</text>
+<text x="24" y="242" fill="#8a8a8a" font-size="11">short = 400 µs, long = 1200 µs</text>
+<line x1="342" y1="155" x2="356" y2="155" stroke="#8a8a8a"/>
+<line x1="356" y1="86" x2="356" y2="216" stroke="#8a8a8a"/>
+<line x1="356" y1="86" x2="368" y2="86" stroke="#8a8a8a"/><polygon points="367,82 374,86 367,90" fill="#8a8a8a"/>
+<rect x="377" y="40" width="152" height="92" rx="6" fill="none" stroke="#3a3a3a"/>
+<text x="453" y="76" fill="#b0b0b0" font-size="13" text-anchor="middle">Read</text>
+<text x="453" y="94" fill="#8a8a8a" font-size="11" text-anchor="middle">decodes the protocol</text>
+<text x="453" y="112" fill="#8FB65F" font-size="11" text-anchor="middle">small, tidy file</text>
+<line x1="532" y1="86" x2="545" y2="86" stroke="#8a8a8a"/><polygon points="544,82 551,86 544,90" fill="#8a8a8a"/>
+<rect x="554" y="40" width="306" height="92" rx="6" fill="none" stroke="#3a3a3a"/>
+<text x="566" y="58" fill="#8a8a8a" font-size="11">Filetype: Flipper SubGhz Key File</text>
+<text x="566" y="74" fill="#b0b0b0" font-size="11">Protocol: Princeton</text>
+<text x="566" y="90" fill="#b0b0b0" font-size="11">Bit: 24</text>
+<text x="566" y="106" fill="#b0b0b0" font-size="11">TE: 400</text>
+<text x="566" y="122" fill="#b0b0b0" font-size="11">Key: 00 00 00 00 00 <tspan fill="#e08a3c">95</tspan> D5 D4</text>
+<line x1="356" y1="216" x2="368" y2="216" stroke="#8a8a8a"/><polygon points="367,212 374,216 367,220" fill="#8a8a8a"/>
+<rect x="377" y="170" width="152" height="92" rx="6" fill="none" stroke="#3a3a3a"/>
+<text x="453" y="206" fill="#b0b0b0" font-size="13" text-anchor="middle">Read RAW</text>
+<text x="453" y="224" fill="#8a8a8a" font-size="11" text-anchor="middle">records the timings</text>
+<text x="453" y="242" fill="#5fafaf" font-size="11" text-anchor="middle">big, exact file</text>
+<line x1="532" y1="216" x2="545" y2="216" stroke="#8a8a8a"/><polygon points="544,212 551,216 544,220" fill="#8a8a8a"/>
+<rect x="554" y="170" width="306" height="92" rx="6" fill="none" stroke="#3a3a3a"/>
+<text x="566" y="188" fill="#8a8a8a" font-size="11">Filetype: Flipper SubGhz RAW File</text>
+<text x="566" y="204" fill="#b0b0b0" font-size="11">Protocol: RAW</text>
+<text x="566" y="220" fill="#b0b0b0" font-size="11">RAW_Data: <tspan fill="#e08a3c">1200 -400 400 -1200 400</tspan></text>
+<text x="566" y="236" fill="#b0b0b0" font-size="11"><tspan fill="#e08a3c">-1200 1200 -400 400 -1200</tspan> ...</text>
+<text x="566" y="252" fill="#8a8a8a" font-size="11">(thousands of numbers per press)</text>
+</g>
+</svg>
